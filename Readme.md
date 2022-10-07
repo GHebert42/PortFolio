@@ -6,3 +6,5 @@ This repository is built step by step in the tutorial.
 
 Actually rewriting, focus... 
 So NOW i'm altering the file!!!
+
+It is supposed to be two pics.
