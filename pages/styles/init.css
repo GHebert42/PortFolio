@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  color: #292929;
+  color: #dababa;
   font: 90% Roboto, Arial, sans-serif;
   font-weight: 300;
 }
@@ -34,8 +34,8 @@ div#header h1 {
   line-height: 80px;
   margin: 0;
   padding-left: 10px;
-  background: #e0e0e0;
-  color: #292929;
+  background: #978383;
+  color: #dff5f1;
 }
 
 div#header a {
@@ -59,8 +59,8 @@ div#extra {
 }
 
 div#footer {
-  background: #42444e;
-  color: #fff;
+  background: #162670;
+  color: #ad2a2a;
 }
 
 div#footer p {
@@ -71,7 +71,12 @@ div#wrapper {
   float: left;
   width: 100%;
 }
+div#spec {
+  font-family: courier;
+  font-size: 160%;
+  color:red;
 
+}
 div#content {
   margin-left: 200px;
 }
@@ -85,4 +90,9 @@ div#navigation {
 div#extra {
   clear: left;
   width: 100%;
+}
+
+div#menu {
+  background: #caccd5;
+  color: #147FA9;
 }
