@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  color: #dababa;
+  color: #756161;
   font: 90% Roboto, Arial, sans-serif;
   font-weight: 300;
 }
@@ -46,17 +46,23 @@ div#header a {
   color: #006;
 }
 
+
 div#navigation {
-  background: #7cb71c;
+  background: #97c252;
 }
 
 div#navigation li {
   list-style: none;
 }
 
-div#extra {
-  background: #147FA9;
+div#navigation {
+  float: left;
+  width: 200px;
+  margin-left: -100%;
 }
+
+
+
 
 div#footer {
   background: #162670;
@@ -71,23 +77,26 @@ div#wrapper {
   float: left;
   width: 100%;
 }
+
 div#spec {
   font-family: courier;
   font-size: 160%;
   color:red;
 
 }
+
 div#content {
   margin-left: 200px;
 }
 
-div#navigation {
-  float: left;
-  width: 200px;
-  margin-left: -100%;
+div#content p {
+  margin-left: 220px;
+  padding: 0 10px;
+  line-height: 1.8;
 }
 
 div#extra {
+  background: #147FA9;
   clear: left;
   width: 100%;
 }
