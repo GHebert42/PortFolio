@@ -16,3 +16,6 @@ log into localhost
 >> type[ localhost:8000] ... or any choosen number
 
 
+;; - min. width to be set 
+;; - header / corner
+;; - 
