@@ -62,6 +62,7 @@
 
     div#navigation {
       background: #58a848;
+	  min-width: 200px;
     }
 
     div#navigation li {
@@ -111,7 +112,7 @@
 	}
 
 	div#content p {
-	margin-left: 120px;
+	margin-left: 60px;
 	padding: 0 10px;
 	line-height: 1.8;
 	}
