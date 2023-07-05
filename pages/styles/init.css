@@ -38,14 +38,15 @@
 /*    DIV STANDARD   */
 
     div#header {
-      position: relative;
+		padding-left: 200px;
+      	position: relative;
     }
 
     div#header h1 {
-      height: 80px;
+      height: 60px;
       line-height: 80px;
       margin: 0;
-      padding-left: 10px;
+      padding-left: 100px;
       background: #304d35;
       color: #dff5f1;
     }
