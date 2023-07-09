@@ -1,6 +1,13 @@
 /* Init.css Basic Frame HTML Portfolio */
 
+/*	
+--- 	header
+---		
+---
+*/
+
 /* DIV BASIC */
+
 
 	html, body {
 		margin: 0;
@@ -80,6 +87,18 @@
     }
 
 
+/*    DIV     CONTENT     */
+	div#content {
+		margin-left: 200px;
+	}
+
+	div#content p {
+		margin-left: 60px;
+		padding: 0 10px;
+		line-height: 1.8;
+	}
+
+
 /*    DIV     FOOTER     */
 
 	div#footer {
@@ -107,15 +126,7 @@
 
 	}
 
-	div#content {
-	margin-left: 200px;
-	}
 
-	div#content p {
-	margin-left: 60px;
-	padding: 0 10px;
-	line-height: 1.8;
-	}
 
 	div#extra {
 	background: #4f5250;
