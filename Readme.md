@@ -16,3 +16,7 @@ log into localhost
 >> type[ localhost:8000] ... or any choosen number
 
 
+<!-- ;; - min. width to be set 
+;; - header / corner
+https://www.free-css.com/free-css-templates/page282/astro-motion
+;; - t -->

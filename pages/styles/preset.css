@@ -1,0 +1,45 @@
+/*
+    css made by ai on my request for a third/two-third layout          
+*/
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Column styles */
+  .column {
+    width: 100%;
+    float: left;
+    padding: 10px;
+  }
+  
+  /* Responsive layout */
+  @media (min-width: 768px) {
+    .one-third {
+      width: 33.33%;
+    }
+    
+    .two-thirds {
+      width: 66.66%;
+    }
+  }
+  
+  /* Clearfix */
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
