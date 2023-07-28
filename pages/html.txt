@@ -1,4 +1,161 @@
 
+<!-- 
+/* 
+	-	begin for new rules: CSS 
+	[3 Pages //One_Pager(quick_me); //Portfolio(project); //Resume(more me...);] 
+	
+[//One_pager]
+	# First set main box... Header; Side; Main; Footer;
+
+	## Header : [full width]
+		- break in 3 part: frm R to L
+			
+		### HeaderPic : medaillon
+		### HeaderMain: NAME ...
+		### HeaderInfo: Contact ...
+RENAME	## TOP 
+		
+	## Side : Nav_bar ... [fisrt third]
+		- listed arrgment...
+		### Skill
+		### Tools
+		### third part should be left or dispatch into other
+RENAME PAN
+	## Main : Core Part [two-third page] ... 
+		- fall down below first-third when need 
+		### Descriptif 	: brief overview
+		### Caracter	: related
+
+	## Footer :  [menu bar] 
+		- comment for actual page ... legends, details 
+
+ -->
+
+<!-- 
+[//Portfolio]
+	# First set main box... Header; Side; Main; Footer;
+
+[//Resume]
+	# First set main box... Header; Side; Main; Footer;
+
+*/ -->
+
+
+
+
+
+
+
+
+
+[Header: Photo; coord: email, cell;  lang:maternelle/courant/intermediaire;]
+[Germain Hebert]
+bref survol de l’individu (main)
+Traits de Caractere:  Creatif, Cartesien, Intergre, Jovial. 
+Porfil Personel:  Responsable, Autonome, Attentif, Proactif.
+Descriptif:
+Je suis un travailleur assidu, qui n’a pas peur du labeur, et qui prefere eviter le gaspillage.   #Resilient
+J’incarne un allie fervent pour une equipe, alors que mes qualites dominantes rayonnent de l’interieur.  #Bienveillant
+J’accomplie les taches au meilleur de mes capacites, en respectant les consignes et les opinions, sans craintes d’exrpimer une potentielle erreur. 
+Type de Joueur : Centre Defensif [unite special] 
+Totem : Cameleon. [ornithorynque]
+
+Je suis un travailleur assidu et resilient, qui n’a pas peur du labeur, et qui préfère éviter le gaspillage.
+ Cuisine/Hotellerie: Chef(Leader), Serveur (Public), Gerant (Responsable)...
+J'incarne un allié fervent pour une équipe, alors que mes qualités principales rayonnent de l'intérieur. 
+Altruisme (Papa), Partage (Mentor), Civisme, ...Humilite.
+J'accomplis les tâches au meilleur de mes capacités, en respectant les consignes et les opinions, sans crainte d'exprimer une potentielle erreur.
+Volontaire, Dynamique, Enthousiaste
+J’ai la quete du savoir! Constant besoin d’apprentissage, de tester et d’innover, d’ameliorer les connaisances aquises.
+AEC (limoilou): GameDesign, LevelDesign;  (42Quebec): Prog/Dev.
+
+
+
+Type de Joueur : Centre Défensif [unité spéciale]
+Totem : Caméléon [ornithorynque]
+ 
+Visuel Competences: ]
+icone de competences [ five star ]
+1 - Connaisances Initial - Interet
+2 - Connaissance moyenne - WIP
+3 - Bonne Connaisance - Confortable
+4 - Connaissance Avanceee - Efficace 
+5 - Maitrise du sujet - Guide / Expert
+
+historique 
+AEC Game Design (2011) Limoilou, Qc.
+
+accompl.
+
+
+
+
+Voici une proposition pour le premier jet de la section [main] de ton CV :
+
+- **Je suis un travailleur assidu, qui n’a pas peur du labeur, et qui préfère éviter le gaspillage.** #Resilient
+- **J'incarne un allié fervent pour une équipe, alors que mes qualités bienveillantes rayonnent de l'intérieur.** #Bienveillant
+- **J'accomplis les tâches au meilleur de mes capacités, en respectant les consignes et les opinions, sans crainte d'exprimer une potentielle erreur.**
+- **Type de Joueur : Centre Défensif [unité spéciale]**
+- **Totem : Caméléon [ornithorynque]**
+
+N'hésite pas à ajuster ces phrases selon ta préférence et en fonction du contexte de ton CV. L'objectif est de mettre en évidence tes qualités et compétences de manière claire et concise tout en montrant ta personnalité. Bonne rédaction !
+
+
+
+Choisir comment graduer et mettre en évidence tes capacités, performances et attributs peut être un exercice délicat. Il est normal de vouloir présenter tes forces sans paraître trop arrogant ou sous-estimer ton niveau de compétence. Voici quelques conseils pour t'aider à trouver le bon équilibre et le bon lexique :
+
+**1. Utilise une gradation descriptive :**
+Au lieu de mettre des pourcentages ou des notes chiffrées, utilise des termes descriptifs pour exprimer ton niveau de compétence. Par exemple :
+- Débutant / Novice / Avancé / Expert
+- Faible / Moyen / Bon / Très bon / Excellent
+
+**2. Utilise des échelles de niveaux :**
+Tu peux utiliser une échelle de 1 à 5 ou de 1 à 10 pour représenter ton niveau dans différentes compétences, où 1 est le niveau débutant et 5 ou 10 est le niveau expert. Assure-toi de définir clairement ce que chaque niveau représente dans ton contexte.
+
+**3. Utilise des icônes ou des symboles :**
+À la place des mots, tu peux utiliser des icônes ou des symboles pour représenter différents niveaux de compétence. Par exemple, tu peux utiliser des étoiles pour indiquer le niveau de compétence dans différentes catégories.
+
+**4. Évite les termes absolus :**
+Évite d'utiliser des termes comme "maitrise" ou "100%" si tu n'es pas sûr à 100% de ta compétence dans un domaine donné. Utilise plutôt des termes tels que "très compétent" ou "hautement compétent" pour exprimer ton niveau de confiance dans tes compétences.
+
+**5. Sois spécifique :**
+Essaie d'être précis dans ta description des compétences et performances que tu mets en évidence. Utilise des exemples concrets pour montrer comment tu as utilisé ces compétences pour accomplir des tâches ou atteindre des objectifs.
+
+En ce qui concerne la gradation de couleur, tu peux utiliser une échelle de couleurs allant du vert au rouge pour représenter différents niveaux de compétence. Par exemple, le vert peut représenter un niveau débutant ou compétent, le jaune pour un niveau moyen, et le rouge pour un niveau expert.
+
+L'important est de rester honnête dans ta représentation de tes compétences tout en mettant en valeur tes forces et tes réalisations. N'hésite pas à demander l'avis de collègues, amis ou mentors pour obtenir des retours et des conseils supplémentaires sur la présentation de tes compétences. Bonne continuation dans la création de ton CV !
+
+La gradation sur 5 étoiles que tu as proposée est très claire et facile à comprendre. Voici ce que cela signifie pour chaque niveau :
+
+1. **Connaissances Initiales - Intérêt :** Cela indique que tu as une connaissance de base du sujet et que tu es intéressé à en apprendre davantage. Tu es au tout début de ton apprentissage.
+
+2. **Connaissance Moyenne - WIP (Work In Progress) :** Tu as déjà acquis une certaine compréhension du sujet, mais tu es toujours en train de progresser. Tu es sur la bonne voie, mais il y a encore des choses à apprendre.
+
+3. **Bonne Connaissance - Confortable :** À ce niveau, tu as une solide compréhension du sujet et tu te sens à l'aise en l'appliquant. Tu peux accomplir des tâches liées à ce domaine avec confiance.
+
+4. **Connaissance Avancée - Efficace :** Tu as atteint un niveau avancé de compétence dans ce domaine. Tu peux travailler de manière efficace et accomplir des tâches complexes avec aisance.
+
+5. **Maîtrise du sujet - Guide / Expert :** C'est le niveau le plus élevé de compétence, où tu as une maîtrise complète du sujet. Tu es capable de guider et d'aider les autres dans ce domaine en raison de ton expertise.
+
+Cette gradation est à la fois claire et nuancée, ce qui permet de mieux comprendre ton niveau de compétence dans chaque domaine. Les étoiles ajoutent une dimension visuelle qui rendra ton CV plus attrayant. Assure-toi de bien détailler tes compétences et réalisations dans chaque domaine pour appuyer la gradation que tu as choisie.
+
+Dans l'ensemble, c'est une excellente façon de présenter tes compétences et ton niveau de maîtrise dans différentes catégories. Bonne continuation dans la réalisation de ton CV !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
