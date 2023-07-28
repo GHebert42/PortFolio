@@ -53,9 +53,6 @@ div#top {
 }
 
 
-
-/*  */
-
 div#pan {
     background: #58a848;
     float: left;
@@ -66,6 +63,7 @@ div#pan {
 }
 
 /* ... your existing CSS rules ... */
+
 
 /* Header Styles */
 div#header {
@@ -104,13 +102,7 @@ div#header-name {
 	color: #dff5f1;
 	border: 2px solid orange;
 }	
-div#header a {
-	position: absolute;
-	right: 0;
-	top: 23px;
-	padding: 10px;
-	color: rgb(220, 220, 245);
-}
+
 
 /* Coordinates Box Styles */
 div#coords-box {
@@ -128,6 +120,15 @@ div#coords-box {
     /* Hériter des propriétés du header */
     min-height: inherit;
     padding-left: inherit;
+}
+
+
+div#header a {
+	position: absolute;
+	right: 0;
+	top: 23px;
+	padding: 10px;
+	color: rgb(220, 220, 245);
 }
 
 /* 
@@ -200,136 +201,3 @@ div#menu {
     color: #147FA9;
 	border: 2px solid purple;
 }
-
-
-  /* Init.css Basic Frame HTML Portfolio */
-
-	/* DIV BASIC */
-
-		/* html, body {
-			margin: 0;
-			padding: 0;
-		}
-
-		body {
-			color: #161212;
-			font: 90% Roboto, Arial, sans-serif;
-			font-weight: 300;
-		}
-
-		p {
-			padding: 0 10px;
-			line-height: 1.8;
-		}
-
-		ul li {
-			padding-right: 10px;
-			line-height: 1.6;
-		}
-
-		h3 {
-			padding: 5px 20px;
-			margin: 0;
-		}
-
-		div#filig {
-		background-image: url('img_hello_world.jpeg');
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: 100% 50%;
-		} */
-
-	/*    DIV STANDARD   */
-	/* 
-		div#header {
-			padding-left: 200px;
-			position: relative;
-		}
-
-		div#header h1 {
-		height: 60px;
-		line-height: 80px;
-		margin: 0;
-		padding-left: 100px;
-		background: #304d35;
-		color: #dff5f1;
-		}
-
-		div#header a {
-		position: absolute;
-		right: 0;
-		top: 23px;
-		padding: 10px;
-		color: rgb(220, 220, 245);
-		} */
-	/*    DIV     NAV     */
-
-		/* div#navigation {
-		background: #58a848;
-		}
-
-		div#navigation li {
-		list-style: none;
-		}
-
-		div#navigation {
-		float: left;
-		width: 200px;
-		margin-left: -100%;
-		}
-
-		div#navigation img {
-		padding: 20px;
-		}
-	*/
-
-	/*    DIV     FOOTER     */
-
-		/* div#footer {
-		background: #575a65;
-		color: #d8cdcd;
-		}
-
-		div#footer p {
-		padding: 20px 10px;
-		}
-	*/
-
-	/*    DIV    SPEC    */
-
-	/* 
-		div#wrapper {
-		float: left;
-		width: 100%;
-		}
-
-		div#spec {
-		font-family: courier;
-		font-size: 160%;
-		color:red;
-
-		}
-
-		div#content {
-		margin-left: 200px;
-		}
-
-		div#content p {
-		margin-left: 120px;
-		padding: 0 10px;
-		line-height: 1.8;
-		}
-
-		div#extra {
-		background: #4f5250;
-		clear: left;
-		width: 100%;
-		color:rgb(250, 252, 250);
-		}
-
-		
-		div#menu {
-		background: #caccd5;
-		color: #147FA9;
-
-		} */

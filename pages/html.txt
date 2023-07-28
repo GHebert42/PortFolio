@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/init.css">
+    <title>PortFolio</title>
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="header" class="flex-container">
+                <!-- <div class="box" id="box1"> -->
+                    <div id="header-name">
+                        <h1>Germain Hebert</h1>
+                    </div>
+                <!-- </div> -->
+                
+                <!-- <div class="box" id="box2"> -->
+                    <div id="header-pic">
+                        <img src="test/img_hello_git.jpeg" alt="Hello Git" style="width:50%;max-width:180px">
+                    </div>
+                <!-- </div> -->
+                    
+                <!-- <div class="box" id="box3"> -->
+                    <div id="coords-box">
+                        <p>Email: hebertgermain.qc@gmail.com</p>
+                        <p>Cell: 418 909 9439</p>
+                    </div>
+                <!-- </div> -->
+            </div>
+
+                 <!--             
+                    <div id="header">
+                        <div id="header-name">
+                            <h1>Germain Hebert</h1>
+                        </div>
+                        <div id="header-pic">
+                            <img src="test/img_hello_git.jpeg" alt="Hello Git" style="width:50%;max-width:180px">
+                        </div>
+                        <div id="coords-box">
+                            <p>Email: hebertgermain.qc@gmail.com</p>
+                            <p>Cell: 418 909 9439</p>
+                        </div>
+                    </div> -->
+
+            <div id="wrapper">
+                <!-- Your content goes here -->
+            </div>
+
+            <div id="navigation">
+                <!-- Your navigation goes here -->
+            </div>
+
+            <div id="extra">
+                <!-- Your extra content goes here -->
+            </div>
+
+            <div id="footer">        
+                <div id="menu" align="middle">
+                    <a href="index.html">HOME</a> | 
+                    <a href="project/index.html">PROJECT</a> | 
+                    <a href="test/index.html">ABOUT</a>  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./assets/frame.js"></script>
+</body>
+</html>
