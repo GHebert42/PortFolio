@@ -31,6 +31,10 @@ h3 {
     margin: 10;
 }
 
+h2 {
+    padding: 5px 20px;
+    margin: 10;
+}
 /* Background Image */
 div#filig {
     background-image: url('img_hello_world.jpeg');
@@ -64,6 +68,39 @@ div#pan {
 	border: 2px solid darkgoldenrod;
 }
 
+/* slideshow attrib */
+.slideshow .slide {
+    display: none;
+  }
+
+.slideshow .slide-active {
+display:contents
+}  
+
+
+/* .slide {
+    display: none;
+  }
+  
+.slide-active {
+    display: block;
+  } */
+
+  
+
+/* Style for navigation buttons */
+.nav {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .nav button {
+    padding: 10px 20px;
+    background-color: #58a848;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }  
 /* ... your existing CSS rules ... */
 
 
@@ -79,8 +116,6 @@ div#header {
 
 div#header-pic { 
 	position: absolute;
-	/* top: 100px; */
-	/* z-index: 3;` */
 	right: 10px;
 	background: #58a848;
 	float: left; 
@@ -96,8 +131,6 @@ div#header-name {
 	height: 60px;
 	/* height: 80px; */
 	left: 200px;
-	/* z-index: 1; */
-	/*  */
 	/* padding-left: 200px; */
 	margin: 0;
 	background: #304d35;
@@ -140,22 +173,6 @@ div#coords a {
     line-height: 1; */
     border: 2px solid rgb(130, 36, 92);
 }
-
-/* Styles pour les liens non visités */
-/* a {
-    color: #000; /* Couleur du texte des liens non visités (noir dans cet exemple) */
-    /* text-decoration: none; Supprime la soulignement des liens */
-/* } */ */
-
-/* Styles pour les liens visités */
-/* a:visited {
-    color: #800080; Couleur du texte des liens visités (violet foncé dans cet exemple) */
-/* } */
-
-/* Styles pour les liens au survol */
-/* a:hover { */
-    /* color: #FF0000; Couleur du texte des liens au survol (rouge dans cet exemple) */
-/* } */
 
 
 div#header a {
