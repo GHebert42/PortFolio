@@ -57,23 +57,16 @@
     }
     
     
-    div#pan {
-        background: #dae01c;
-        float: left;
-        min-width: 200px;
-        width: 33.33%;
-        margin-left: -100%;
-        border: 2px solid darkgoldenrod;
-    }
+
     
     /* slideshow attrib */
-    .slideshow .slide {
+    /* .slideshow .slide {
         display: none;
       }
     
     .slideshow .slide-active {
     display: block;
-    }  
+    }   */
     
     /*  slide itself hide // see */
     .slide {
@@ -84,7 +77,7 @@
         display: block;
       }
     /* alt  */
-    .mySlide {display:none;}
+    /* .mySlide {display:none;} */
       
     
     /* Style for navigation buttons */

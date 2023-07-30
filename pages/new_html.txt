@@ -505,6 +505,7 @@
     </style>
   </head>
   <body>
+  
     <div id="gallery">
       <ul id="navigation">
         <li>

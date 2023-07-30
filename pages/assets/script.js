@@ -7,10 +7,11 @@ document.addEventListener('DOMContentLoaded', function () {
     const nextButton = document.querySelector('.next');
   
     let currentIndex = 0;
+    let picIndex = 0;
 
     var slideIndex =  [1,1];
     var slideId = ["mySlide1", "mySlide2", "mySlide3"];
-    showDivs(1, 0);
+    showDivs(currentIndex, picIndex);
     // showDivs(1, 1);
     // showDivs(1, 2);
 
@@ -30,8 +31,8 @@ document.addEventListener('DOMContentLoaded', function () {
         for (i = 0; i < x.length; i++) {
             x[i].style.display = "none";   
         }
-      // alert('nb : ' + i + ' items!' + projId + 'folder!!');
         x[slideIndex[imgId]-1].style.display = "block";
+        alert('nb : ' + i + ' items! ' + projId + ' vprojectID!! >> ' + imgId + 'PidId...');
     }
 
 
@@ -55,8 +56,8 @@ document.addEventListener('DOMContentLoaded', function () {
     
         if (currentIndex !== newIndex) {
           currentIndex = newIndex;
-          // showDivs(1, slideIndex);
-          showSlide(currentIndex);
+          showDivs(currentIndex, 1);
+          // showSlide(currentIndex);
         }
       }
 
@@ -66,11 +67,13 @@ document.addEventListener('DOMContentLoaded', function () {
     function showPrevSlide() {
       currentIndex = (currentIndex - 1 + slides.length) % slides.length;
       showSlide(currentIndex);
+
     }
 
     function showNextSlide() {
       currentIndex = (currentIndex + 1) % slides.length;
       showSlide(currentIndex);
+      
     }
 
 
