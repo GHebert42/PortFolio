@@ -26,21 +26,22 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (currentIndex !== newIndex) {
       currentIndex = newIndex;
+      alert( ' OYE , bienvenue a : ' + currentIndex );
       showSlide(currentIndex);
     }
   }
 
   // Function to show the previous slide
-  function showPrevSlide() {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    showSlide(currentIndex);
-  }
+  // function showPrevSlide() {
+  //   currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+  //   showSlide(currentIndex);
+  // }
 
   // Function to show the next slide
-  function showNextSlide() {
-    currentIndex = (currentIndex + 1) % slides.length;
-    showSlide(currentIndex);
-  }
+  // function showNextSlide() {
+  //   currentIndex = (currentIndex + 1) % slides.length;
+  //   showSlide(currentIndex);
+  // }
 
   // Add click event listeners to project items
   projectItems.forEach(item => {
@@ -48,14 +49,14 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   // Add click event listeners to all images within the slideshow
-  const slideshowImages = document.querySelectorAll('.slide img');
-  slideshowImages.forEach(image => {
-  image.addEventListener('click', handleImageClick);
-  });
+  // const slideshowImages = document.querySelectorAll('.slide img');
+  // slideshowImages.forEach(image => {
+  // image.addEventListener('click', handleImageClick);
+  // });
 
   // Add click event listeners to navigation buttons
-  prevButton.addEventListener('click', showPrevSlide);
-  nextButton.addEventListener('click', showNextSlide);
+  // prevButton.addEventListener('click', showPrevSlide);
+  // nextButton.addEventListener('click', showNextSlide);
 
   // Show the first slide of each project initially
   showSlide(currentIndex);

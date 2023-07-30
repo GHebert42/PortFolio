@@ -9,8 +9,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title of the document</title>
+    <link rel="stylesheet" href="../styles/init.css">    
     <link rel="stylesheet" href="../styles/preset.css">    
-    <link rel="stylesheet" href="../styles/slideshow.css">    
   </head>
 
   <body>
@@ -20,49 +20,59 @@
     <div id="wrapper">  
       <div id="content">  <!-- third /two-third holder -->
       <!--  -->
-        <div id="gallery">
+      <div class="slide" data-index="0">
+          <div id="gallery">
               <ul id="navig">
                 <li>
                   <a href="#picture1">
-                    <img alt="small house 1" src="GameD/gallery-img-31.jpg"  style="width:50%;max-width:180px;" />
+                    <img alt="Game Design Image 1" src="GameD/gallery-img-30.jpg"  style="width:50%;max-width:180px;" />
                   </a>
                 </li>
                 <li>
                   <a href="#picture2">
-                    <img alt="small house 2"  src="GameD/gallery-img-30.jpg"  style="width:70%;max-width:180px;"/>
+                    <img alt="Game Design Image 2"  src="GameD/gallery-img-31.jpg"  style="width:70%;max-width:180px;"/>
                   </a>
                 </li>
                 <li>
                   <a href="#picture3">
-                    <img alt="small house 3" src="GameD/gallery-img-32.jpg"  style="width:70%;max-width:180px;"/>
+                    <img alt="Game Design Image 3" src="GameD/gallery-img-32.jpg"  style="width:70%;max-width:180px;"/>
                   </a>
                 </li>
                 <li>
                   <a href="#picture4">
-                    <img alt="small house 4" src="GameD/gallery-img-33.jpg"  style="width:70%;max-width:180px;"/>
+                    <img alt="Game Design Image 4" src="GameD/gallery-img-33.jpg"  style="width:70%;max-width:180px;"/>
+                  </a>
+                </li>
+                <li>
+                  <a href="#picture5">
+                    <img alt="Game Design Image 5" src="GameD/gallery-img-34.jpg"  style="width:70%;max-width:180px;"/>
                   </a>
                 </li>
               </ul>
 
-          <div id="full-picture">
-            <div>
-              <img id="picture1" alt="Large house 1" src="GameD/gallery-img-31.jpg" />
-            </div>
-            <div>
-              <img id="picture2" alt="Large house 2" src="GameD/gallery-img-30.jpg" />
-            </div>
-            <div>
-              <img id="picture3" alt="Large house 3" src="GameD/gallery-img-32.jpg" />
-            </div>
-            <div>
-              <img id="picture4" alt="Large house 4" src="GameD/gallery-img-33.jpg" />
+
+
+            <div id="full-picture">
+              <div>
+                <img id="picture1" alt="Game Design Big Image 1" src="GameD/gallery-img-30.jpg" />
+              </div>
+              <div>
+                <img id="picture2" alt="Game Design Big Image 2"  src="GameD/gallery-img-31.jpg" />
+              </div>
+              <div>
+                <img id="picture3" alt="Game Design Big Image 3" src="GameD/gallery-img-32.jpg" />
+              </div>
+              <div>
+                <img id="picture4" alt="Game Design Big Image 4" src="GameD/gallery-img-33.jpg" />
+              </div>
+              <div>
+                <img id="picture5" alt="Game Design Big Image 5" src="GameD/gallery-img-34jpg" />
+              </div>
             </div>
           </div>
-        </div>
-      <!--  -->
+      </div>
       </div>
     </div>
-    <!--  -->
     <div id="navigation">
       <div class="sidebar">
           <ul class="project-list">
@@ -72,8 +82,17 @@
           </ul>
       </div>
   </div>
-
-  </body>
+  <div id="extra">
+  <div id="footer">   
+      <div id = "menu" align = "middle" >
+          <a href = "../lang/english.html">HOME</a> | 
+          <a href = "eng_proj.html">PROJECT</a> |
+          <a href = "../test/index.html">ABOUT</a>  
+      </div>
+  </div>
+</div>
+<script src="../assets/script.js"></script>
+</body>
 </html>
 
 
