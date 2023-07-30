@@ -1,0 +1,263 @@
+/* SLIDESHOW.CSS */
+
+/* used to cleanup mess ... from inherited version  */
+
+/* General Styles */
+
+	/* Reset default margin and padding */
+    html, body {
+        margin: 0;
+        padding: 0;
+        max-width: 1024px;
+        min-width: 370px;
+    }
+    
+    /* Common text styles */
+    body {
+        color: #161212;
+        font: 90% Roboto, Arial, sans-serif;
+        font-weight: 300;   
+    }
+    
+    p {
+        padding: 0 10px;
+        line-height: 1.8;
+        border: 2px solid whitesmoke;
+    }
+    
+    ul li {
+        padding-right: 10px;
+        line-height: 1.6;
+    }
+    
+    h3 {
+        padding: 5px 20px;
+        margin: 10;
+    }
+    
+    h2 {
+        padding: 5px 20px;
+        margin: 10;
+    }
+    
+    
+    /* 	RENAME PROCESS HEADER >> TOP	*/
+    
+    
+    div#top {
+        background: #304d35;
+        /* padding-left: 200px; */
+        position: relative;
+        min-height: 110px; /* Add this line to set a minimum height for the header */
+        border: 2px solid red;
+        
+            width: 100%;
+            float: left;
+            padding: 10px;
+    }
+    
+    
+    div#pan {
+        background: #dae01c;
+        float: left;
+        min-width: 200px;
+        width: 33.33%;
+        margin-left: -100%;
+        border: 2px solid darkgoldenrod;
+    }
+    
+    /* slideshow attrib */
+    .slideshow .slide {
+        display: none;
+      }
+    
+    .slideshow .slide-active {
+    display: block;
+    }  
+    
+    /*  slide itself hide // see */
+    .slide {
+        display: none;
+      }
+      
+    .slide-active {
+        display: block;
+      }
+    /* alt  */
+    .mySlide {display:none;}
+      
+    
+    /* Style for navigation buttons */
+    .nav {
+        text-align: center;
+        margin-top: 10px;
+      }
+      
+    .nav button {
+        padding: 10px 20px;
+        background-color: #58a848;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }  
+
+    
+    /* Header Styles */
+    div#header {
+        background: #304d35;
+        /* padding-left: 200px; */
+        /* position: relative; */
+        min-height: 100px; /* Add this line to set a minimum height for the header */
+        border: 2px solid red;
+    }
+
+    /* header box pic  */
+    div#header-pic { 
+        position: absolute;
+        right: 10px;
+        background: #58a848;
+        float: left; 
+        /* width: 200px;  */
+        /* margin-left: - 100%; */
+        border: 2px solid darkgoldenrod;     
+    }
+    /* header box name   */
+    div#header-name {
+        position: absolute;
+        height: 60px;
+        /* height: 80px; */
+        left: 200px;
+        /* padding-left: 200px; */
+        margin: 0;
+        background: #304d35;
+        color: #dff5f1;
+        /* border: 2px solid orange; */
+    }	
+    
+    /* Coordinates Box Styles */
+    /* header box coords  */
+    div#coords{
+        position: absolute;
+        float: right; 
+        top: 60px;
+        right: 10px;
+        /* background-color: #147FA9; */
+        color: #fff;
+        padding: 5px 10px;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        border-radius: 5px;
+        /* border: 2px solid pink; */
+        /* Hériter des propriétés du header */
+        /* min-height: inherit;
+        padding-left: inherit; */
+    }
+    /* header box coords --- specs  */
+    div#coords ul  li {
+        font-weight: 30;
+        padding-right: 10px;
+        line-height: 1;
+        border: 2px solid rgb(63, 206, 175);
+    }
+    div#coords a {
+        list-style: none;
+        text-decoration: none; 
+        color: #fff;
+        /* font-weight: 30;
+        padding-right: 10px;
+        line-height: 1; */
+        border: 2px solid rgb(130, 36, 92);
+    }
+    
+    div#header a {
+        list-style: none;
+        /* position: absolute;
+        right: 0;
+        top: 23px;
+        padding: 10px;*/
+        color: rgb(16, 48, 28); 
+    }
+    
+    /*         Header END    */
+    
+    /* .mySlide {
+        display: none;
+    } */
+    
+    
+    /* Navigation Styles */
+    div#navigation {
+        background: #58a848;
+        float: left;
+        width: 200px;
+        margin-left: -100%;
+        border: 2px solid darkgoldenrod;
+    }
+    
+    div#navigation li {
+        list-style: none;
+    }
+    
+    div#navigation img {
+        padding: 20px;
+    }
+    
+    /* Footer Styles */
+    div#footer {
+        background: #575a65;
+        color: #d8cdcd;
+    }
+    
+    div#footer p {
+        padding: 20px 10px;
+    }
+    
+    /* Specific Styles */
+                /*  wrapper enable body to stand together */
+    div#wrapper {
+        float: left;
+        width: 100%;
+    }
+    
+    div#spec {
+        font-family: courier;
+        font-size: 160%;
+        color: red;
+    }
+    
+    div#content {
+        margin-left: 200px;
+        overflow: auto;
+        max-height: calc(100vh - 60px);
+        border: 2px solid blue;
+    }
+    
+    div#content p {
+        margin-left: 60px;
+        padding: 0 10px;
+        line-height: 1.8;
+    }
+    
+    div#pli {
+        margin-left: 80px;
+        font-weight: bold;
+        /* padding: 0 10px; */
+        line-height: 1;
+        font-size: 12px;
+    }
+    
+    div#extra {
+        background: #4f5250;
+        clear: left;
+        width: 100%;
+        color: rgb(250, 252, 250);
+        border: 2px solid yellow;
+    }
+    
+    div#menu {
+        background: #caccd5;
+        color: #147FA9;
+        border: 2px solid purple;
+    }
+    

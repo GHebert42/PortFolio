@@ -1,3 +1,6 @@
+// V3 - un_alter version of script.js ---
+
+
 document.addEventListener('DOMContentLoaded', function () {
   const projectItems = document.querySelectorAll('.project-item');
   const slides = document.querySelectorAll('.slide');
