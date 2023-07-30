@@ -13,11 +13,11 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  // // Function to handle image click
-  // function handleImageClick(event) {
-  // const clickedImage = event.target;
-  // clickedImage.style.width = '200%';
-  // }
+  // Function to handle image click
+  function handleImageClick(event) {
+  const clickedImage = event.target;
+  clickedImage.style.width = '200%';
+  }
   
   // Function to handle project item click
   function handleProjectItemClick(event) {

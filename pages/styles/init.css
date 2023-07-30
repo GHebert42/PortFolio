@@ -74,17 +74,17 @@ div#pan {
   }
 
 .slideshow .slide-active {
-display:contents
+display: block;
 }  
 
 
-/* .slide {
+.slide {
     display: none;
   }
   
 .slide-active {
     display: block;
-  } */
+  }
 
   
 
@@ -94,7 +94,7 @@ display:contents
     margin-top: 10px;
   }
   
-  .nav button {
+.nav button {
     padding: 10px 20px;
     background-color: #58a848;
     color: white;
@@ -188,6 +188,10 @@ div#header a {
 	Header END
 */
 
+/* .mySlide {
+    display: none;
+} */
+
 
 /* Navigation Styles */
 div#navigation {
@@ -217,6 +221,7 @@ div#footer p {
 }
 
 /* Specific Styles */
+            /*  wrapper enable body to stand together */
 div#wrapper {
     float: left;
     width: 100%;

@@ -224,3 +224,20 @@ Dans l'ensemble, c'est une excellente façon de présenter tes compétences et t
     <script src="./assets/frame.js"></script>
 </body>
 </html>
+
+
+///
+Hi, i want to make a html web page that take 3 project on a side bar navigation set, 
+that the user will select;
+then i need to make a slideshow to display the picture from the containing folder,
+ we wont bother with css for now, but i need you to help me to resolve this:
+and my question  is how could a double-array for the slide-show (in .js) :
+the first param, will be the project-name index: {0,1,2} ... 
+the second will be the pic_index{0, ..., n} ... 
+So,
+the first variable will be set  by the project selector when selected into html , (init = 0;)
+the second will always set initially , index=0;  
+Then,
+a projectSelector will call the imageSlider with the related project choosen by the user ... 
+Is it intelligible!? can u help me to do the .html and .js
+
