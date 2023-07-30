@@ -1,45 +1,42 @@
-/*
-    css made by ai on my request for a third/two-third layout          
+/* slideshow set to be call diapo....
+      - three folder // each have their own  index ... 
+      - menos idiomas 
+
+      --- onle copy-paste form the whole html file diapo.html
 */
-/* Global styles */
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-  }
-  
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* Column styles */
-  .column {
-    width: 100%;
-    float: left;
-    padding: 10px;
-  }
-  
-  /* Responsive layout */
-  @media (min-width: 768px) {
-    .one-third {
-      width: 33.33%;
-    }
-    
-    .two-thirds {
-      width: 66.66%;
-    }
-  }
-  
-  /* Clearfix */
-  .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
+#gallery {
+  width: 600px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin: 100px auto;
+  border: 2px solid #003C72;
+}
+#navig {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+#navig li {
+  padding: 0;
+  margin: 0;
+  margin: 5px 0 20px;
+}
+#navig li a img {
+  display: block;
+  border: none;
+}
+#navig li a {
+  display: block;
+}
+#full-picture {
+  width: 600px;
+  height: 375px;
+  overflow: hidden;
+  float: left;
+}
+#full-picture img {
+  width: 80%;
+}

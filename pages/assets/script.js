@@ -1,4 +1,4 @@
-// V5-- origin Version of script, used to test prefered version ---
+
 
 document.addEventListener('DOMContentLoaded', function () {
     const projectItems = document.querySelectorAll('.project-item');
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
             x[i].style.display = "none";   
         }
         x[slideIndex[imgId]-1].style.display = "block";
-        alert('nb : ' + i + ' items! ' + projId + ' vprojectID!! >> ' + imgId + 'PidId...');
+        // alert('nb : ' + i + ' items! ' + projId + ' vprojectID!! >> ' + imgId + 'PidId...');
     }
 
 
