@@ -18,24 +18,24 @@ document.addEventListener('DOMContentLoaded', function () {
     
     /// Show pic
 
-  function plusDivs(n, no) {
-      showDivs(slideIndex[no] += n, no); 
+  function plusDivs(projId, imgId) {
+      showDivs(slideIndex[imgId] += projId, imgId); 
   }
 
-  function showDivs(n, no) {
+  function showDivs(projId, imgId) {
       var i;
-      var x = document.getElementsByClassName(slideId[no]);
-      if ( n > x.length) { slideIndex[no] = 1}
-      if (n < 1) { slideIndex[no] = x.length}
+      var x = document.getElementsByClassName(slideId[imgId]);
+      if ( projId > x.length) { slideIndex[imgId] = 1}
+      if (projId < 1) { slideIndex[imgId] = x.length}
       for (i = 0; i < x.length; i++) {
           x[i].style.display = "none";   
       }
-      x[slideIndex[no]-1].style.display = "block";
+      alert('nb : ' + i + ' items!' + projId + 'folder!!');
+      x[slideIndex[imgId]-1].style.display = "block";
   }
 
 
-  /// Show Slide
-  
+  /// Show Slide  
     // Function to show the current slide
     function showSlide(index) {
       slides.forEach((slide, i) => {
@@ -44,16 +44,13 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
   /// Handle ... IMAGES
-
     // Function to handle image click
-    // function handleImageClick(event) {
-    //   const clickedImage = event.target;
-    //   clickedImage.style.width = '200%';
-    // }
+      // function handleImageClick(event) {
+      //   const clickedImage = event.target;
+      //   clickedImage.style.width = '200%';
+      //  }
     
-
-/// Handle ... PROJECT
-
+  /// Handle ... PROJECT
     // Function to handle project item click
     function handleProjectItemClick(event) {
       const clickedItem = event.target;
@@ -66,37 +63,34 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     }
 
-       /// PREV <> NEXT 
-  
-
+    
+    /// PREV <> NEXT 
+///
   
   function showPrevSlide() {
     currentIndex = (currentIndex - 1 + slides.length) % slides.length;
     showSlide(currentIndex);
   }
 
-  
   function showNextSlide() {
     currentIndex = (currentIndex + 1) % slides.length;
     showSlide(currentIndex);
   }
 
+///
 
-
-      // // Function to show the previous slide
-  function showPrevSlide2() {
-        slideIndex = (slideIndex - 1 + slides.length) % slides.length;
-        showDivs(slideIndex );
-        // showSlide(slideIndex);
-      }
+    // function showPrevSlide2() {
+    //       slideIndex = (slideIndex - 1 + slides.length) % slides.length;
+    //       showDivs(slideIndex );
+    //       // showSlide(slideIndex);
+    //     }
+      
+    // function showNextSlide2() {
+    //       slideIndex = (slideIndex + 1) % slides.length;
+    //       showDivs(slideIndex);
+    //       // showSlide(slideIndex);
+    //     }
     
-      // // Function to show the next slide
-  function showNextSlide2() {
-        slideIndex = (slideIndex + 1) % slides.length;
-        showDivs(slideIndex);
-        // showSlide(slideIndex);
-      }
-  
     /// click proj-item
 
     // Add click event listeners to project items
@@ -104,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
       item.addEventListener('click', handleProjectItemClick);
     });
   
-    /// ??? not sure!!!
+    
     // Add click event listeners to all images within the slideshow
     const slideshowImages = document.querySelectorAll('.slide img');
 
@@ -112,16 +106,15 @@ document.addEventListener('DOMContentLoaded', function () {
       image.addEventListener('click', handleImageClick);
     });
 
-    /// still not sure about that
 
 
     // Add click event listeners to navigation buttons
     prevButton.addEventListener('click', showPrevSlide);
     nextButton.addEventListener('click', showNextSlide);
   
+
     // Show the first slide of each project initially
     showSlide(currentIndex);
-
     // showDivs(1, slideIndex);
 
   });

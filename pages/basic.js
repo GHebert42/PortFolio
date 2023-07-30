@@ -1,9 +1,27 @@
 // Define your image array for each project
 const projectImages = [
-    ["project1_image1.jpg", "project1_image2.jpg", "project1_image3.jpg"],
+    ["DevsCode/gallery-img-42.jpg", "DevsCode/gallery-img-72.jpg", "DevsCode/gallery-img-74.jpg"],
     ["project2_image1.jpg", "project2_image2.jpg", "project2_image3.jpg"],
     ["project3_image1.jpg", "project3_image2.jpg", "project3_image3.jpg"],
 ];
+
+// DevsCode/gallery-img-42.jpg
+// DevsCode/gallery-img-72.jpg
+// DevsCode/gallery-img-74.jpg
+// DevsCode/gallery-img-77.jpg
+// DevsCode/gallery-img-83.jpg
+
+// LevelD/gallery-img-03.jpg
+// LevelD/gallery-img-09.jpg
+// LevelD/gallery-img-12.jpg
+// LevelD/gallery-img-20.jpg
+// LevelD/gallery-img-50.jpg
+
+// GameD/gallery-img-30.jpg
+// GameD/gallery-img-31.jpg
+// GameD/gallery-img-32.jpg
+// GameD/gallery-img-33.jpg
+// GameD/gallery-img-34.jpg
 
 let currentProjectIndex = 0;
 let currentImageIndex = 0;
