@@ -5,8 +5,13 @@
     html, body {
         margin: 0;
         padding: 0;
-        max-width: 1024px;
+        max-width: 768px;
         min-width: 370px;
+        /* position: center; */
+        
+        /* width: 100%;  */
+        /* display: flex;  */
+        float:none; 
     }
 
     body {
@@ -43,7 +48,7 @@
         /* padding-left: 200px; */
         position: relative;
         min-height: 110px;
-        border: 2px solid red;
+        /* border: 2px solid red; */
         width: 100%;
         float: left;
         /* padding: 10px; */
@@ -58,31 +63,16 @@
         border: 2px solid darkgoldenrod;
     }
 
-
-/* NAV BUTTON class button tryout --- buttons */
-    .nav {
-        text-align: center;
-        margin-top: 10px;
-    }
-
-    .nav button {
-        padding: 10px 20px;
-        background-color: #58a848;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
-
-
 /* - = = = - - = = = - - = = = - - = = = - */
 
 /* Header BOX --- Styles */
     div#header {
         background: #304d35;
         /* padding-left: 200px; */
-        position: relative;
-        min-height: 100px; 
-        border: 2px solid red;
+        /* position: relative; */
+        min-height: 80px; 
+        /* max-height: 200px;  */
+        /* border: 2px solid red; */
     }
 
     div#header-pic {
@@ -90,20 +80,23 @@
         /* right: 10px; */
         background: #58a848;
         float: left;
-        width: 190px; 
+        /* width: 100%; 
+        height: 100%; */
         /* margin-left: - 100%; */
+        object-fit: cover;
         border: 2px solid rgb(120, 236, 157);
     }
+
 
     div#header-name {
         position: relative;
         height: 60px;
         /* height: 80px; */
-        /* left: 10px; */
+        left: 10px;
         float: left;
         /* padding-left: 15px; */
-        width: 45%;
-        margin: 10px;
+        width: 220px;
+        /* margin: 10px; */
         background: #304d35;
         color: #dff5f1;
         border: 2px solid orange;
@@ -124,6 +117,7 @@
         border-radius: 5px;
         /* border: 2px solid pink; */
         /* Hériter des propriétés du header */
+        height: inherit;
         min-height: inherit;
         padding-left: inherit;
     }
@@ -155,10 +149,11 @@
         list-style: none;
         text-decoration: none;
         color: #fff;
-        border: 2px solid rgb(109, 10, 69);
+        /* border: 2px solid rgb(109, 10, 69); */
     }
 
 /* - = = = - - = = = - - = = = - - = = = - */
+
 
 /* Navigation Styles */
 div#navigation {
@@ -174,9 +169,25 @@ div#navigation li {
     margin-left: 10px;
 }
 
-div#navigation img {
+/* div#navigation img {
     padding: 10px;
+} */
+
+/* NAV BUTTON class button tryout --- buttons */
+.nav {
+    text-align: center;
+    margin-top: 10px;
 }
+
+.nav button {
+    padding: 10px 20px;
+    background-color: #58a848;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* - = = = - - = = = - - = = = - - = = = - */
 
 /* Footer Styles */
 div#footer {
