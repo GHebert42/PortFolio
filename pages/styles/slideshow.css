@@ -60,23 +60,23 @@
 
     
     /* slideshow attrib */
-    /* .slideshow .slide {
+    .slideshow .slide {
         display: none;
       }
     
     .slideshow .slide-active {
     display: block;
-    }   */
+    }  
     
     /*  slide itself hide // see */
-    .slide {
-        display: none;
-      }
-      
-    .slide-active {
-        display: block;
-      }
-    /* alt  */
+            /* .slide {
+                display: none;
+            }
+            
+            .slide-active {
+                display: block;
+            } */
+            /* alt  */
     /* .mySlide {display:none;} */
       
     
