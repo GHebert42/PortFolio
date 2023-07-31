@@ -196,6 +196,19 @@
     div#navigation img {
         padding: 20px;
     }
+
+    #aptitude {
+        font-size: 24px; /* Taille de police pour les étoiles */
+    }
+      
+    #star1, #star2, #star3, #star4, #star5 {
+        color: gold; /* Couleur de l'étoile */
+        background: hsl(59, 100%, 50%);
+    }
+
+
+
+      
     
     /* Footer Styles */
     div#footer {
