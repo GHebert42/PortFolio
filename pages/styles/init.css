@@ -163,8 +163,8 @@ html, body {
         border-radius: 5px;
         /* border: 2px solid pink; */
         /* Hériter des propriétés du header */
-        /* min-height: inherit;
-        padding-left: inherit; */
+        min-height: inherit;
+        padding-left: inherit; 
     }
 
     div#coords ul  li {
