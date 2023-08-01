@@ -63,15 +63,7 @@
         /* padding: 10px; */
     }
 
-    div#pan {
-        background: #dae01c;
-        float: left;
-        min-width: 200px;
-        width: 33.33%;
-        height: auto;
-        /* margin-left: -100%; */
-        /* border: 2px solid darkgoldenrod; */
-    }
+
 
 /* - = = = - - = = = - - = = = - - = = = - */
 
@@ -112,7 +104,7 @@
 
     div#header-name {
         position: relative;
-        height: 60px;
+        height: auto;
         /* height: 80px; */
         left: 10px;
         float: left;
@@ -161,8 +153,30 @@
     }
 
 /* - = = = - - = = = - - = = = - - = = = - */
+/* Side Bar SShow Styles */
+div#pan {
+    /* background: #dae01c; */
+    float: left;
+    min-width: 150px;
+    width: 30%;
+    height: auto;
+    /* margin-left: -100%; */
+    /* border: 2px solid darkgoldenrod; */
+}
 
+div#pan li {
+    display: inline;
+    clear: left;
+    /* list-style: none; */
+    font-size: 20px; 
+    /* margin-left: 10px; */
+    line-height: 2;
+    background: #003566;
+    color: #CADCFC;
 
+}
+
+/* - = = = - - = = = - - = = = - - = = = - */
 /* Navigation Styles */
     div#navigation {
         background: #003566;
@@ -174,6 +188,7 @@
 
     div#navigation li {
         list-style: none;
+        font-size: 12px; 
         margin-left: 10px;
         background: #003566;
         color: #CADCFC;
@@ -291,5 +306,6 @@ div#menu {
 
 #star1, #star2, #star3, #star4, #star5 {
     color: gold; /* Couleur de l'étoile */
+    font-size: 18px; 
     /* background: hwb(59 0% 0%); */
 }
