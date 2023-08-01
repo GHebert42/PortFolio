@@ -1,30 +1,21 @@
 
 /* General Styles */
-/* 
-
-        #CADCFC ---blue pale
-        #8AB6F9 ---blue sky
-        #00246B ---blue dark
-
-*/
 
 /* Reset default margin and padding */
     html, body {
         margin: 0;
         padding: 0;
-        max-width: 1024px;
+        max-width: 768px;
         min-width: 370px;
         /* position: center; */
         
-        width: 100%; 
+        /* width: 100%;  */
         /* display: flex;  */
         float:none; 
-        margin: 0 auto;
     }
 
     body {
-        color: #001d3d;
-    
+        color: #161212;
         font: 90% Roboto, Arial, sans-serif;
         font-weight: 300;
     }
@@ -32,7 +23,7 @@
     p {
         padding: 0 10px;
         line-height: 1.8;
-        /* border: 2px solid whitesmoke; */
+        border: 2px solid whitesmoke;
     }
 
     ul li {
@@ -53,7 +44,7 @@
 /* - = = = - - = = = - - = = = - - = = = - */
 /*  spec divs */
     div#top {
-        background: #001d3d;
+        background: #304d35;
         /* padding-left: 200px; */
         position: relative;
         min-height: 110px;
@@ -68,9 +59,8 @@
         float: left;
         min-width: 200px;
         width: 33.33%;
-        height: auto;
-        /* margin-left: -100%; */
-        /* border: 2px solid darkgoldenrod; */
+        margin-left: -100%;
+        border: 2px solid darkgoldenrod;
     }
 
 /* - = = = - - = = = - - = = = - - = = = - */
@@ -85,30 +75,18 @@
         /* border: 2px solid red; */
     }
 
-    div#header a {
-        list-style: none;
-        /* position: absolute;
-        right: 0;
-        top: 23px;
-        padding: 10px;*/
-        /* color: rgb(16, 48, 28); */
-        list-style: none;
-        text-decoration: none;
-        /* color: #fff; */
-        /* border: 2px solid rgb(109, 10, 69); */
-    }
-
     div#header-pic {
         position: relative;
         /* right: 10px; */
-        background: #001d3d;
+        background: #58a848;
         float: left;
         /* width: 100%; 
         height: 100%; */
         /* margin-left: - 100%; */
         object-fit: cover;
-        /* border: 2px solid rgb(120, 236, 157); */
+        border: 2px solid rgb(120, 236, 157);
     }
+
 
     div#header-name {
         position: relative;
@@ -119,10 +97,11 @@
         /* padding-left: 15px; */
         width: 220px;
         /* margin: 10px; */
-        background: #001d3d;
-        color: #ffc300;
-        /* border: 2px solid orange; */
+        background: #304d35;
+        color: #dff5f1;
+        border: 2px solid orange;
     }
+
     /* Coordinates Box Styles */
     div#coords {
         position: relative;
@@ -142,14 +121,14 @@
         min-height: inherit;
         padding-left: inherit;
     }
+
     div#coords ul li {
         font-weight: 30;
         padding-right: 10px;
         line-height: 1;
-        color: #fff;
-        
-        /* border: 2px solid rgb(63, 206, 175); */
+        border: 2px solid rgb(63, 206, 175);
     }
+
     div#coords a {
         list-style: none;
         text-decoration: none;
@@ -157,70 +136,69 @@
         /* font-weight: 30;
         padding-right: 10px;
         line-height: 1; */
-        /* border: 2px solid rgb(130, 36, 92); */
+        border: 2px solid rgb(130, 36, 92);
+    }
+
+    div#header a {
+        list-style: none;
+        /* position: absolute;
+        right: 0;
+        top: 23px;
+        padding: 10px;*/
+        /* color: rgb(16, 48, 28); */
+        list-style: none;
+        text-decoration: none;
+        color: #fff;
+        /* border: 2px solid rgb(109, 10, 69); */
     }
 
 /* - = = = - - = = = - - = = = - - = = = - */
 
 
 /* Navigation Styles */
-    div#navigation {
-        background: #003566;
-        float: left;
-        width: 200px;
-        margin-left: -100%;
-        /* border: 2px solid darkgoldenrod; */
-    }
+div#navigation {
+    background: #58a848;
+    float: left;
+    width: 200px;
+    margin-left: -100%;
+    /* border: 2px solid darkgoldenrod; */
+}
 
-    div#navigation li {
-        list-style: none;
-        margin-left: 10px;
-        background: #003566;
-        color: #CADCFC;
+div#navigation li {
+    list-style: none;
+    margin-left: 10px;
+}
 
-    }
-    div#navigation h3 {
-        list-style: none;
-        margin-left: 10px;
-        background: #003566;
-        color: #ffc300;
-        font-weight: 20px;
-    }
+/* div#navigation img {
+    padding: 10px;
+} */
 
 /* NAV BUTTON class button tryout --- buttons */
-    /* .sidebar {
-        list-style: none;
-        margin-left: 10px;
-        background: #003566;
-        color: #ffc300;
-        font-weight: 20px;
-    } */
-    
-    .nav {
-        text-align: center;
-        margin-top: 10px;
-    }
+.nav {
+    text-align: center;
+    margin-top: 10px;
+}
 
-    .nav button {
-        padding: 10px 20px;
-        background-color: #58a848;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
+.nav button {
+    padding: 10px 20px;
+    background-color: #58a848;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
 
 /* - = = = - - = = = - - = = = - - = = = - */
 
 /* Footer Styles */
 div#footer {
-    background: #001d3d;
-    color: #ffd60a;
+    background: #575a65;
+    color: #d8cdcd;
 }
 
 div#footer p {
     padding: 20px 10px;
 }
-
+/* - = = = - - = = = - - = = = - - = = = - */
 
 /* wrapper enable body to stand together */
 div#wrapper {
@@ -228,14 +206,17 @@ div#wrapper {
     width: 100%;
 }
 
-/* - = = = - - = = = - - = = = - - = = = - */
+div#spec {
+    font-family: courier;
+    font-size: 160%;
+    color: red;
+}
 
 div#content {
     margin-left: 200px;
     overflow: auto;
     max-height: calc(100vh - 60px);
-    background: #CADCFC;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
 }
 
 div#content p {
@@ -253,25 +234,18 @@ div#pli {
 }
 
 div#extra {
-    background: #001d3d;
+    background: #4f5250;
     clear: left;
     width: 100%;
-    color: #CADCFC;
+    color: rgb(250, 252, 250);
     border: 2px solid yellow;
 }
 
 div#menu {
-    background: #ffd60a;
-    color: #001d3d;
-    line-height: 2;
-    /* border: 2px solid purple; */
+    background: #caccd5;
+    color: #147FA9;
+    border: 2px solid purple;
 }
-
-/* div#spec {
-    font-family: courier;
-    font-size: 160%;
-    color: red;
-} */
 
 
 /* SLIDESHOW REFs --- begin ... */
@@ -282,8 +256,22 @@ div#menu {
     display: block;
 }
 /* slide itself hide // see */
-
+.slide {
+    display: none;
+}
+.slide-active {
+    display: block;
+}
 .mySlide {display:none;}
+
+/* Custom Styles from slideshow.css */
+.slideshow .slide {
+    display: none;
+}
+
+.slideshow .slide-active {
+    display: block;
+}
 
 #aptitude {
     font-size: 24px; 
