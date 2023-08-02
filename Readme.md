@@ -1,11 +1,16 @@
-# hello-world
-Hello World repository for Git tutorial
-This is an example repository for the Git tutoial on https://www.w3schools.com
+# Portfolio
 
-This repository is built step by step in the tutorial.
+Making my own website with HTML, CSS, JavaScript.
+... Without template, or WebKit.
 
-Actually rewriting, focus... 
-So NOW i'm altering the file!!!
+## One-Pager
+I wanted to build my own web-page from scratch! 
+Adding some SlideShow from my past work as a Portfolio became a challenge.
+
+It will be better pretty soon!!! 
+But for now, i ust say it works!
+
+Try Me!
 
 <!-- log into localhost  -->
 <!-- 
