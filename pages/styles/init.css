@@ -80,11 +80,12 @@
         background: #304d35;
         /* padding-left: 200px; */
         /* position: relative; */
-        min-height: 80px; 
+        min-height: 50px; 
         /* max-height: 200px;  */
         /* border: 2px solid red; */
     }
 
+  
     div#header a {
         list-style: none;
         /* position: absolute;
@@ -96,6 +97,11 @@
         text-decoration: none;
         /* color: #fff; */
         /* border: 2px solid rgb(109, 10, 69); */
+    }
+    div#header .link {
+        position: relative;
+        float: right;
+        bottom: 100%;
     }
 
     div#header-pic {
@@ -112,9 +118,9 @@
 
     div#header-name {
         position: relative;
-        height: 60px;
+        height: auto;
         /* height: 80px; */
-        left: 10px;
+        left: 15px;
         float: left;
         /* padding-left: 15px; */
         width: 220px;
