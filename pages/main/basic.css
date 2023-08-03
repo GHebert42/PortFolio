@@ -14,8 +14,7 @@
         padding: 0;
         float:none; 
         margin: 0 auto;
-        max-width: 1024px;
-        min-width: 370px;
+
         /* max-height: 1024px; */
         width: 100%; 
     }
@@ -26,7 +25,10 @@
     body {
         color: #001d3d;
         font: 90% Roboto, Arial, sans-serif;
-        font-weight: 300;
+        font-weight: 100;
+        min-height: 255px;
+        min-width: 378px;
+        max-width: 1024px;
     }
 
     /*      ---    begin of the re-build    ---      */
@@ -94,6 +96,7 @@ div#stag {
     /* position: absolute; */
     /* background: #eceff4; */
     color: #fff;
+    font-size: 15px;
     /* padding-left: 15px; */
 
     /* border: 2px solid rgb(200, 32, 169); */
@@ -103,7 +106,7 @@ div#mtag {
     /* position: absolute; */
     /* background: #eceff4; */
     color: #000;
-    /* padding-left: 15px; */
+    font-size: 15px;
 
     /* border: 2px solid rgb(200, 32, 169); */
 }
@@ -137,6 +140,7 @@ div#pic {
     /* position: absolute; */
     background: #5c6b76;
     height: 200px;
+    margin-left: none;
     /* border: 1px solid rgb(229, 229, 68); */
 }
 .contact li {
@@ -144,12 +148,12 @@ div#pic {
 }
 .comp {
     position: relative;
-    float: left;
-    font-size: 18px;
-    margin-left: auto;
-    margin-right: auto;
-    /* padding-bottom: 4px; */
-    /* line-height: 5.8; */
+    /* float: left; */
+    font-size: 16px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    padding-bottom: 4px;
+    line-height: 2;
 
 }
 
