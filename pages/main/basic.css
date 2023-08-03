@@ -42,20 +42,18 @@
     width: 100%; 
     float:none; 
     margin: 0 auto; */
-    /* padding: 0 10px;
-    line-height: 1.8; */
+    /* padding: 0 10px;*/
+    /* line-height: 1.8;  */
     /* padding: 25px; */
     /* min-height: 110px; */
     /* min-width: 200px; */
     /* background: #001d3d; */
     /* width: 190px;  */
     /* height: 190px; */
-
-    /* float: left;
-    object-fit: cover; */
+    /* float: left;*/
+    /* object-fit: cover;  */
     /* right: 10px; */
     /* margin-left: - 100%; */
-
     /* margin: 0 auto; */
     /* position: relative; */
     /* width: 35%; */
@@ -70,10 +68,12 @@
     div#side {
         position: relative;
         background: #4d5d68;
-        /* padding-left: 15px; */
-        width: 33%;
         float: left;
+        
+        width: 34%;
+        max-width: 344px;
         height: 1024px;
+        /* padding-left: 15px; */
         /* border: 2px solid rgb(32, 54, 200); */
     }
 
@@ -82,7 +82,7 @@
         position: relative;
         background: #c6ccd4;
         
-        width: 67%;
+        width: 66%;
         float: right;
         height: 1024px;
         /* border: 2px solid rgb(93, 214, 56); */
@@ -92,108 +92,173 @@
 /* - = = = - - = = = - - = = = - - = = = - */
 /*  SIDE DIVS */
 
+/*          _SIDE   TAG_             */
 div#stag {
-    /* position: absolute; */
-    /* background: #eceff4; */
+    position: relative;
     color: #fff;
     font-size: 12px;
-    padding-left: 12px;
-
+    float: right;
+    padding-right: 8px;
+    /* background: #eceff4; */
+    /* padding-left: 12px; */
     /* border: 2px solid rgb(200, 32, 169); */
 }
 
+/*          _MAIN   TAG_             */
 div#mtag {
-    /* position: absolute; */
-    /* background: #eceff4; */
     color: #000;
     font-size: 15px;
-
+    
+    /* position: absolute; */
+    /* background: #eceff4; */
     /* border: 2px solid rgb(200, 32, 169); */
 }
+
+
+/* - = = = - - = = = - - = = = - - = = = - */
+/*  SIDE DIVS */
 
 div#pic {
     margin: 0;
-    /* padding-left: 15%; */
     float:center; 
-    /* object-fit: cover;
-    position: relative;
-    position: center; */
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%; 
     max-width: 200px;
+
+    /* padding-left: 15%; */
+    /* object-fit: cover;
+    position: relative;
+    position: center; */
     /* border: 2px solid rgb(120, 236, 157); */
 }
+    img {
+        border-radius: 50%;
+    }
+/* - = = = - - = = = - - = = = - - = = = - */
+/* ---     CONTACT    attrb       --- */
 
-img {
-    border-radius: 50%;
-  }
 
-
-.contact {
-    position: relative;
-    /* position: absolute; */
-    background: #5c6b76;
-    height: 200px;
-    margin-left: none;
-    /* border: 1px solid rgb(229, 229, 68); */
-}
-.contact li {
-    list-style: none;
+    .contact {
+        position: relative;
+        /* position: absolute; */
+        background: #5c6b76;
+        height: 150px;
+        margin-left: none;
+        /* border: 1px solid rgb(229, 229, 68); */
+    }
+    .contact li {
+        list-style: none;
+        padding-left: -20px;
+    }
+    div#contactbox {
+        position: relative;
+        /* color: #fff; */
+        /* font-size: 12px; */
+        float: left;
+        padding-left: 6px;
     
-}
-
-.comp {
-    position: relative;
-    /* float: left; */
-    font-size: 16px;
-    /* margin-left: auto; */
-    /* margin-right: auto; */
-    padding-bottom: 4px;
-    line-height: 2;
-}
-
-/** Change la couleur de fond et la couleur du texte lors du survol */
-.element:hover {
-    background-color: #333a3f;
-    color: #9e8888;
-    transition: 0.3s;
-  }
-
-  /* Ajoute une ombre portée à l'élément */
-.element {
-    transition: 0.3s;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  }
-
-  
-
-.skill {
-    position: relative;
-    /* position: absolute; */
-    background: #5c6b76;
-    height: auto;
-    /* border: 1px solid rgb(229, 229, 68); */
-}
-.skill li {
-    color: #fff;
-    font: 90% Roboto, Arial, sans-serif;
-    /* font-weight: 30; */
-    font-size: 15px;
+    }
     
-}
+    /* Appliquer l'attribut white-space avec la valeur nowrap */
+    .no-wrap-text {
+        white-space: nowrap;
+    }  
 
-.int {
-    position: relative;
-    background: #5c6b76;
-    height: 150px;
-    /* border: 1px solid rgb(150, 76, 7); */
-}
+    .comp {
+        position: relative;
+        float: left;
+        font-size: 16px;
+        /* margin-left: auto; */
+        /* margin-right: auto; */
+        padding-bottom: 4px;
+        line-height: 2;
+    }
 
+/* - =          HOVER            = - */
 
+    /** Change la couleur de fond et la couleur du texte lors du survol */
+    .element:hover {
+        background-color: #333a3f;
+        color: #9e8888;
+        transition: 0.3s;
+    }    
+    /* Ajoute une ombre portée à l'élément */
+    .element {
+        transition: 0.3s;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    }
+     
+/* - = = = - - = = = - - = = = - - = = = - */    
+/* ---         SKILL attrb       --- */
+
+    .skill {
+        position: relative;
+        /* position: absolute; */
+        background: #5c6b76;
+        height: auto;
+        /* border: 1px solid rgb(229, 229, 68); */
+    }
+    .skill li {
+        color: #fff;
+        font: 90% Roboto, Arial, sans-serif;
+        /* font-weight: 30; */
+        font-size: 15px;
+        
+    }
+    div#skillbox li {
+        list-style: none;
+        padding-left: -20px;
+    }
+    /* container for slider bar */
+    div#skillbox {
+        position: relative;
+        list-style: none;
+        padding-top: 20px;
+        /* padding-left: -10px; */
+    }
+
+    
+
+/*      ---   OTHER DIVS    ---     */
+
+    * {box-sizing: border-box}
+
+    /* slider bar */
+    .slider {
+      width: 80%;
+      background-color: #414946;
+      border-radius: 10px;  
+    }
+    
+    /*  slider bar ref. name */
+    .skills {
+      text-align: right;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      color: rgb(23, 41, 41);
+      font-size: 10px;
+    }
+
+    /*     slider bar ref. name %%%  */
+    .full {width: 95%; background-color: #ddd;}
+    .solid {width: 85%; background-color: #ddd;}
+    .good {width: 70%; background-color: #ddd;}
+    .fine {width: 60%; background-color: #ddd;}
+    .wip {width: 45%; background-color: #ddd;}
+    .init {width: 35%; background-color: #ddd;}
 
 /* - = = = - - = = = - - = = = - - = = = - */
+    /* ---        INTERETS          ---  */
+    .int {
+        position: relative;
+        background: #5c6b76;
+        height: 150px;
+        /* border: 1px solid rgb(150, 76, 7); */
+    }
+    
+/* - = = = - - = = = - - = = = - - = = = - - = = = - - = = = - - = = = - - = = = - */
 /*  MAIN  DIVS */
 
 div#name {
@@ -207,14 +272,6 @@ div#name {
     /* border: 1px solid rgb(150, 76, 7); */
 }
 
-.job {
-    position: relative;
-    background: #c6ccd4;
-    margin-left: 35%; 
-    font-size: 28px;
-    height: 50px;
-    /* border: 1px solid rgb(150, 76, 7); */
-}
 
 div#about {
     position: relative;
@@ -230,6 +287,15 @@ div#about {
 div#about p {
     font-size: 14px;    
 
+}
+
+.job {
+    position: relative;
+    background: #c6ccd4;
+    margin-left: 35%; 
+    font-size: 28px;
+    height: 50px;
+    /* border: 1px solid rgb(150, 76, 7); */
 }
 
 .obj {
@@ -258,31 +324,8 @@ div#about p {
 
 
 /* - = = = - - = = = - - = = = - - = = = - */
-/*  OTHER DIVS */
-
-* {box-sizing: border-box}
-
-.slider {
-  width: 80%;
-  background-color: #414946;
-  border-radius: 10px;  
-}
 
 
 
-.skills {
-  text-align: right;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  color: rgb(23, 41, 41);
-  font-size: 10px;
-}
-
-.full {width: 95%; background-color: #ddd;}
-.solid {width: 85%; background-color: #ddd;}
-.good {width: 70%; background-color: #ddd;}
-.fine {width: 60%; background-color: #ddd;}
-.wip {width: 45%; background-color: #ddd;}
-.init {width: 35%; background-color: #ddd;}
 
 
