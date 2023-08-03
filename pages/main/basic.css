@@ -136,8 +136,21 @@ div#pic {
     position: relative;
     /* position: absolute; */
     background: #5c6b76;
-    height: 150px;
+    height: 200px;
     /* border: 1px solid rgb(229, 229, 68); */
+}
+.contact li {
+    list-style: none;
+}
+.comp {
+    position: relative;
+    float: left;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding-bottom: 4px; */
+    /* line-height: 5.8; */
+
 }
 
 
