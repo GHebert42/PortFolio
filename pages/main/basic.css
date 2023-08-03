@@ -80,7 +80,7 @@
     
     div#main {
         position: relative;
-        background: #d8dce1;
+        background: #c6ccd4;
         
         width: 67%;
         float: right;
@@ -121,12 +121,14 @@ div#pic {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%; 
+    width: 60%; 
     max-width: 200px;
     /* border: 2px solid rgb(120, 236, 157); */
 }
 
-
+img {
+    border-radius: 50%;
+  }
 
 
 .contact {
@@ -165,8 +167,6 @@ div#pic {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   }
 
-
-
   
 
 .skill {
@@ -183,6 +183,14 @@ div#pic {
     font-size: 15px;
     
 }
+
+.int {
+    position: relative;
+    background: #5c6b76;
+    height: 150px;
+    /* border: 1px solid rgb(150, 76, 7); */
+}
+
 
 
 /* - = = = - - = = = - - = = = - - = = = - */
@@ -216,7 +224,7 @@ div#about {
     margin-left: 5%; 
     font-size: 12px;
     
-    height: 200px;
+    height: auto;
     /* border: 1px solid rgb(229, 229, 68); */
 }
 div#about p {
@@ -245,12 +253,6 @@ div#about p {
     /* border: 1px solid rgb(150, 76, 7); */
 }
 
-.int {
-    position: relative;
-    background: #c6ccd4;
-    height: 150px;
-    /* border: 1px solid rgb(150, 76, 7); */
-}
 
 
 
