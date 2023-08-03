@@ -10,7 +10,19 @@ Adding some SlideShow from my past work as a Portfolio became a challenge.
 It will be better pretty soon!!! 
 But for now, i ust say it works!
 
-Try Me!
+-   Try Me !!!
+    - Not .
+
+### In Fact ...
+-   it seems that i misunderstand what's a resume for!!! 
+> The one pager i did recently was my pride, because it challenged me to making it all by myself, my own hand... 
+-  but to be honest, it isn't look that good ! =( 
+   
+> If i ask for an opinion, for other's perpective.
+>> I must listen, i'll redo the process... 
+
+- For sure i'll keep the last as an artifact...  [art] ...  
+
 
 <!-- log into localhost  -->
 <!-- 

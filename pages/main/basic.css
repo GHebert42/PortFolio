@@ -1,0 +1,236 @@
+
+/* General Styles */
+/* 
+
+        #CADCFC ---blue pale
+        #8AB6F9 ---blue sky
+        #00246B ---blue dark
+
+*/
+
+/* Reset default margin and padding */
+    html, body {
+        margin: 0;
+        padding: 0;
+        float:none; 
+        margin: 0 auto;
+        max-width: 1024px;
+        min-width: 370px;
+        /* max-height: 1024px; */
+        width: 100%; 
+    }
+    /* position: center; */
+    /* display: flex;  */
+
+
+    body {
+        color: #001d3d;
+        font: 90% Roboto, Arial, sans-serif;
+        font-weight: 300;
+    }
+
+    /*      ---    begin of the re-build    ---      */
+
+
+/* - = = = - - = = = - - = = = - - = = = - */
+    /* margin: 0;
+    padding: 0;
+    max-width: 1024px;
+    min-width: 370px;
+    width: 100%; 
+    float:none; 
+    margin: 0 auto; */
+    /* padding: 0 10px;
+    line-height: 1.8; */
+    /* padding: 25px; */
+    /* min-height: 110px; */
+    /* min-width: 200px; */
+    /* background: #001d3d; */
+    /* width: 190px;  */
+    /* height: 190px; */
+
+    /* float: left;
+    object-fit: cover; */
+    /* right: 10px; */
+    /* margin-left: - 100%; */
+
+    /* margin: 0 auto; */
+    /* position: relative; */
+    /* width: 35%; */
+    /* float: left; */
+    /* height: 800px; */
+    /* min-height: 110px; */
+    /* padding-left: 200px; */
+
+/* - = = = - - = = = - - = = = - - = = = - */
+/*  Principal DIV */
+
+    div#side {
+        position: relative;
+        background: #4d5d68;
+        /* padding-left: 15px; */
+        width: 35%;
+        float: left;
+        height: 1024px;
+        /* border: 2px solid rgb(32, 54, 200); */
+    }
+
+    
+    div#main {
+        position: relative;
+        background: #d8dce1;
+        
+        width: 65%;
+        float: right;
+        height: 1024px;
+        /* border: 2px solid rgb(93, 214, 56); */
+    }
+
+
+/* - = = = - - = = = - - = = = - - = = = - */
+/*  SIDE DIVS */
+
+div#stag {
+    /* position: absolute; */
+    /* background: #eceff4; */
+    color: #fff;
+    /* padding-left: 15px; */
+
+    /* border: 2px solid rgb(200, 32, 169); */
+}
+
+div#mtag {
+    /* position: absolute; */
+    /* background: #eceff4; */
+    color: #000;
+    /* padding-left: 15px; */
+
+    /* border: 2px solid rgb(200, 32, 169); */
+}
+
+div#pic {
+    margin: 0;
+    /* padding-left: 15%; */
+    float:center; 
+    /* object-fit: cover;
+    position: relative;
+    position: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    max-width: 200px;
+    /* border: 2px solid rgb(120, 236, 157); */
+}
+
+
+.about {
+    position: relative;
+    /* position: absolute; */
+    background: #5c6b76;
+    height: 200px;
+    /* border: 1px solid rgb(229, 229, 68); */
+}
+
+.contact {
+    position: relative;
+    /* position: absolute; */
+    background: #5c6b76;
+    height: 150px;
+    /* border: 1px solid rgb(229, 229, 68); */
+}
+
+
+.skill {
+    position: relative;
+    /* position: absolute; */
+    background: #5c6b76;
+    height: auto;
+    /* border: 1px solid rgb(229, 229, 68); */
+}
+.skill li {
+    color: #fff;
+    font: 90% Roboto, Arial, sans-serif;
+    /* font-weight: 30; */
+    font-size: 15px;
+    
+}
+
+
+/* - = = = - - = = = - - = = = - - = = = - */
+/*  MAIN  DIVS */
+
+.name {
+    position: relative;
+    background: #c6ccd4;
+    height: 75px;
+    /* border: 1px solid rgb(150, 76, 7); */
+}
+
+.job {
+    position: relative;
+    background: #c6ccd4;
+    height: 50px;
+    /* border: 1px solid rgb(150, 76, 7); */
+}
+
+.obj {
+    position: relative;
+    background: #c6ccd4;
+    height: 225px;
+    /* border: 1px solid rgb(150, 76, 7); */
+}
+
+.edu {
+    position: relative;
+    background: #c6ccd4;
+    height: 150px;
+    /* border: 1px solid rgb(150, 76, 7); */
+}
+
+.exp {
+    position: relative;
+    background: #c6ccd4;
+    height: 150px;
+    /* border: 1px solid rgb(150, 76, 7); */
+}
+
+.int {
+    position: relative;
+    background: #c6ccd4;
+    height: 150px;
+    /* border: 1px solid rgb(150, 76, 7); */
+}
+
+
+
+
+/* - = = = - - = = = - - = = = - - = = = - */
+/*  OTHER DIVS */
+
+* {box-sizing: border-box}
+
+.slider {
+  width: 80%;
+  background-color: #414946;
+  border-radius: 10px;  
+}
+
+
+
+.skills {
+  text-align: right;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: rgb(23, 41, 41);
+  font-size: 10px;
+}
+
+.full {width: 95%; background-color: #ddd;}
+.solid {width: 85%; background-color: #ddd;}
+.good {width: 70%; background-color: #ddd;}
+.fine {width: 60%; background-color: #ddd;}
+.wip {width: 45%; background-color: #ddd;}
+.init {width: 35%; background-color: #ddd;}
+
+
