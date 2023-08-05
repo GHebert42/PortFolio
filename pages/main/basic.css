@@ -80,6 +80,8 @@ div#mtag {
     font-size: 1.2vw;
     float: left;
     padding-left: 8px;
+    padding-top: 2%;
+    padding-bottom: 2%;
 
         /* padding-left: -18px; */
         /* position: absolute; */
@@ -254,7 +256,7 @@ div#intbox li {
     
 /*          MAIN  DIVS           */
 /* - = = = - - = = = - - = = = - - = = = - - = = = - - = = = - - = = = - - = = = - */
-/* ---        NAME          ---  */
+/* ---              NAME                ---  */
 
 div#name {
     font: 50% Cambria, Calibri,sans-serif;
@@ -269,21 +271,25 @@ div#name {
 
     /* border: 1px solid rgb(150, 76, 7); */
 }
-/* ---        JOB TITLE          ---  */
+/* ---              JOB TITLE           ---  */
 div#job {
     position: relative;
     background: #c6ccd4;
-    /* margin-left: 35%;  */
-    font-size: 3vw;
+    
     height: auto;
     /* border: 1px solid rgb(150, 76, 7); */
 }
+
+.jobbox  p {
+    font: 50% Cambria, Calibri,sans-serif;
+    font-size: 3vw;
+    margin-left: 35%; 
+    }
 /* - = = = - - = = = - - = = = - - = = = - */
-    /* ---        ABOUT          ---  */
+    /* ---          ABOUT               ---  */
 
 div#about {
     position: relative;
-    /* position: absolute; */
     background: #c6ccd4;
     margin-left: 8px; 
     font-size: 12px;
@@ -294,11 +300,11 @@ div#aboutbox {
     position: relative;
     padding-left: 16px;
     font-size: 12px;
-
+    padding-top: 1%;
 }
-div#about p {
+div#aboutbox p {
     /* font-size: 16px;     */
-  font-size: 2vw;
+    font-size: 2vw;
 
 }
 
@@ -308,20 +314,26 @@ div#about p {
     height: 225px;
     /* border: 1px solid rgb(150, 76, 7); */
 }
-
 .edu {
     position: relative;
     background: #c6ccd4;
     height: auto;
-    /* border: 1px solid rgb(150, 76, 7); */
+    border: 1px solid rgb(150, 76, 7);
 }
 
+.edu li {
+    list-style: none;
+    font-size: 1.2vw;
+}
 .exp {
     position: relative;
     background: #c6ccd4;
     height: 150px;
-    /* border: 1px solid rgb(150, 76, 7); */
+    border: 1px solid rgb(150, 76, 7);
 }
+.exp li {
+    list-style: none;
+    font-size: 1.2vw;
 
 
 
