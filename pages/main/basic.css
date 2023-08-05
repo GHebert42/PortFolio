@@ -8,8 +8,11 @@
         float:none; 
         margin: 0 auto;
         width: 100%; 
-        overflow-x: hidden;
-        overflow-y: hidden;
+        min-height: 255px;
+        min-width: 378px;
+        max-width: 1024px;
+        /* overflow-x: hidden;
+        overflow-y: hidden; */
         
             /* max-height: 1024px; */
             /* position: center; */
@@ -21,9 +24,9 @@
         color: #001d3d;
         font: 90% Roboto, Arial, sans-serif;
         font-weight: 100;
-        min-height: 255px;
+        /* min-height: 255px;
         min-width: 378px;
-        max-width: 1024px;
+        max-width: 1024px; */
         
     }
     /* ul {
@@ -42,7 +45,7 @@ div#side {
     float: left;
     width: 34%;
     max-width: 344px;
-    height: 1024px;
+    /* max-height: 1024px; */
     /* padding-left: 15px; */
     /* border: 2px solid rgb(32, 54, 200); */
 }
@@ -53,7 +56,7 @@ div#main {
     
     width: 66%;
     float: right;
-    height: 1024px;
+    /* max-height: 1024px; */
     /* border: 2px solid rgb(93, 214, 56); */
 }
 
@@ -118,8 +121,9 @@ div#pic {
 div#contact {
     position: relative;
     background: #5c6b76;
-    height: 15%;
-    padding-left: auto;
+    height: 10%;
+    padding-left: 1px;
+    padding-top: 1px;
     /* border: 2px solid rgb(229, 229, 68); */
     /* position: absolute; */
     /* display:inherit; */
@@ -196,7 +200,7 @@ div#skillbox {
     padding-left: -10px;
     /* position: relative; */
     padding-top: 1%;
-    border: 3px solid rgb(213, 17, 17);
+    /* border: 3px solid rgb(213, 17, 17); */
 }
 div#skillbox li {
     color: #fff;
