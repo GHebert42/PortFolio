@@ -1,12 +1,5 @@
 
 /* General Styles */
-/* 
-
-        #CADCFC ---blue pale
-        #8AB6F9 ---blue sky
-        #00246B ---blue dark
-
-*/
 
 /* Reset default margin and padding */
     html, body {
@@ -14,12 +7,14 @@
         padding: 0;
         float:none; 
         margin: 0 auto;
-
-        /* max-height: 1024px; */
         width: 100%; 
+        overflow-x: hidden;
+        overflow-y: hidden;
+        
+            /* max-height: 1024px; */
+            /* position: center; */
+            /* display: flex;  */
     }
-    /* position: center; */
-    /* display: flex;  */
 
 
     body {
@@ -29,69 +24,68 @@
         min-height: 255px;
         min-width: 378px;
         max-width: 1024px;
+        
     }
+    /* ul {
+        float: none;     
+        margin: none;
+    } */
 
-    /*      ---    begin of the re-build    ---      */
-
-
-/* - = = = - - = = = - - = = = - - = = = - */
 
 
 /* - = = = - - = = = - - = = = - - = = = - */
 /*  Principal DIV */
 
-    div#side {
-        position: relative;
-        background: #4d5d68;
-        float: left;
-        
-        width: 34%;
-        max-width: 344px;
-        height: 1024px;
-        /* padding-left: 15px; */
-        /* border: 2px solid rgb(32, 54, 200); */
-    }
+div#side {
+    position: relative;
+    background: #4d5d68;
+    float: left;
+    width: 34%;
+    max-width: 344px;
+    height: 1024px;
+    /* padding-left: 15px; */
+    /* border: 2px solid rgb(32, 54, 200); */
+}
 
+div#main {
+    position: relative;
+    background: #c6ccd4;
     
-    div#main {
-        position: relative;
-        background: #c6ccd4;
-        
-        width: 66%;
-        float: right;
-        height: 1024px;
-        /* border: 2px solid rgb(93, 214, 56); */
-    }
-
+    width: 66%;
+    float: right;
+    height: 1024px;
+    /* border: 2px solid rgb(93, 214, 56); */
+}
 
 /* - = = = - - = = = - - = = = - - = = = - */
-/*  SIDE DIVS */
-
 /*          _SIDE   TAG_             */
+
 div#stag {
-    position: relative;
+    /* position: relative; */
     color: #fff;
-    font-size: 12px;
+    font-size: 1.2vw;
     float: right;
     padding-right: 8px;
-    /* background: #eceff4; */
-    /* padding-left: 12px; */
-    /* border: 2px solid rgb(200, 32, 169); */
+
+        /* font-size: 12px; */
+        /* background: #eceff4; */
+        /* padding-left: 12px; */
+        /* border: 2px solid rgb(200, 32, 169); */
 }
 
 /*          _MAIN   TAG_             */
 div#mtag {
     position: relative;
     color: #000;
-    font-size: 12px;
+    font-size: 1.2vw;
     float: left;
     padding-left: 8px;
-    
-    /* position: absolute; */
-    /* background: #eceff4; */
-    /* border: 2px solid rgb(200, 32, 169); */
-}
 
+        /* padding-left: -18px; */
+        /* position: absolute; */
+        /* background: #eceff4; */
+        /* border: 2px solid rgb(200, 32, 169); */
+}
 
 /* - = = = - - = = = - - = = = - - = = = - */
 /*  SIDE DIVS */
@@ -105,103 +99,113 @@ div#pic {
     width: 60%; 
     max-width: 200px;
 
-    /* padding-left: 15%; */
-    /* object-fit: cover;
-    position: relative;
-    position: center; */
-    /* border: 2px solid rgb(120, 236, 157); */
+        /* padding-left: 15%; */
+        /* object-fit: cover;
+        position: relative;
+        position: center; */
+        /* border: 2px solid rgb(120, 236, 157); */
 }
     img {
         border-radius: 50%;
     }
+
 /* - = = = - - = = = - - = = = - - = = = - */
 /* ---     CONTACT    attrb       --- */
 
 
-    .contact {
-        position: relative;
-        /* position: absolute; */
-        background: #5c6b76;
-        height: 150px;
-        margin-left: none;
-        /* border: 1px solid rgb(229, 229, 68); */
-    }
-    .contact li {
-        list-style: none;
-        padding-left: -20px;
-    }
-    div#contactbox {
-        position: relative;
-        /* color: #fff; */
-        /* font-size: 12px; */
-        float: left;
-        padding-left: 6px;
+div#contact {
+    position: relative;
+    background: #5c6b76;
+    height: 15%;
+    padding-left: auto;
+    /* border: 2px solid rgb(229, 229, 68); */
+    /* position: absolute; */
+    /* display:inherit; */
+}
+div#contact li {
+    list-style: none;
+    font-size: 3vw;
+    /* padding-left: -10px; */
+}
+div#contactbox {
+    float: left;
+    padding-left: 1%;
     
-    }
-    
-    /* Appliquer l'attribut white-space avec la valeur nowrap */
+    /* position: relative; */
+    /* color: #fff; */
+    /* font-size: 1vw; */
+    /* padding-top: 1%; */
+}
     .no-wrap-text {
+        /* Appliquer l'attribut white-space avec la valeur nowrap */
         white-space: nowrap;
-    }  
-
+    } 
     .comp {
         position: relative;
         float: left;
-        font-size: 16px;
+        font-size: 2vw;
+        padding-bottom: 4px;
+
         /* margin-left: auto; */
         /* margin-right: auto; */
-        padding-bottom: 4px;
-        line-height: 2;
+        /* line-height: 2; */
     }
-
-/* - =          HOVER            = - */
-
-    /** Change la couleur de fond et la couleur du texte lors du survol */
+    /* - =          HOVER            = - */
     .element:hover {
+        /** Change la couleur de fond et la couleur du texte lors du survol */
         background-color: #333a3f;
         color: #9e8888;
         transition: 0.3s;
     }    
-    /* Ajoute une ombre portée à l'élément */
     .element {
+        /* Ajoute une ombre portée à l'élément */
         transition: 0.3s;
-        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); */
     }
      
 /* - = = = - - = = = - - = = = - - = = = - */    
 /* ---         SKILL attrb       --- */
 
-    .skill {
-        /* position: relative; */
-        /* position: absolute; */
-        background: #5c6b76;
-        height: auto;
-        /* border: 1px solid rgb(229, 229, 68); */
-    }
-    .skill li {
-        color: #fff;
-        font: 90% Roboto, Arial, sans-serif;
-        /* font-weight: 30; */
-        font-size: 15px;
-        
-    }
+div#skill {
+    /* position: absolute; */
+    position: relative;
+    background: #5c6b76;
+    height: 45%;
+    /* border: 3px solid rgb(62, 62, 183); */
+    padding-left: 1vw;
+}
 
-    /* container for slider bar */
-    div#skillbox {
-        position: relative;
-        list-style: none;
-        padding-top: 20px;
-        /* padding-left: -10px; */
-    }
-    div#skillbox li {
-        list-style: none;
-        padding-left: -20px;
-    }
+div#skill p {
+    color: #001d3d;
+    font: 90% Roboto, Arial, sans-serif;
     
+    padding-top: 2px;
+    padding-left: 2px;
+    list-style: none;
+    font-size: 1.2vw;
+    /* color: #fff; */
+    /* font-weight: 30; */
+    /* font-size: 15px; */
+    /* font: bold; */
+} 
 
-/*      ---   OTHER DIVS    ---     */
+/* container for slider bar */
+div#skillbox {
+    padding-left: -10px;
+    /* position: relative; */
+    padding-top: 1%;
+    border: 3px solid rgb(213, 17, 17);
+}
+div#skillbox li {
+    color: #fff;
+    list-style: none;
+    padding-left: 1%;
+    font-size: 1.3vw;
+    padding-top: .2vh;
+}
 
-    * {box-sizing: border-box}
+/*      ---   SLIDER DIVS    ---     */
+* {box-sizing: border-box}
 
     /* slider bar */
     .slider {
@@ -232,8 +236,20 @@ div#pic {
 .int {
     position: relative;
     background: #5c6b76;
-    height: auto;
-    border: 1px solid rgb(150, 76, 7);
+    height: 20%;
+
+    /* border: 1px solid rgb(150, 76, 7); */
+}
+div#intbox {
+    padding-left: -10px;
+    position: relative;
+    padding-top: 1%;
+    /* border: 3px solid rgb(29, 9, 9); */
+}
+div#intbox li {
+    list-style: none;
+    font-size: 1.2vw;
+    /* padding-left: -10px; */
 }
     
 /*          MAIN  DIVS           */
@@ -241,22 +257,25 @@ div#pic {
 /* ---        NAME          ---  */
 
 div#name {
+    font: 50% Cambria, Calibri,sans-serif;
     position: relative;
     background: #c6ccd4;
     float:none; 
-    margin-left: 5%; 
+    margin-left: 1vw; 
     /* margin-right: 20%; */
     height: 50px;
-    font-size: 36px;
+    font-size: 4vw;
+    /* font-size: 36px; */
+
     /* border: 1px solid rgb(150, 76, 7); */
 }
 /* ---        JOB TITLE          ---  */
-.job {
+div#job {
     position: relative;
     background: #c6ccd4;
-    margin-left: 35%; 
-    font-size: 28px;
-    height: 50px;
+    /* margin-left: 35%;  */
+    font-size: 3vw;
+    height: auto;
     /* border: 1px solid rgb(150, 76, 7); */
 }
 /* - = = = - - = = = - - = = = - - = = = - */
@@ -269,31 +288,32 @@ div#about {
     margin-left: 8px; 
     font-size: 12px;
     height: auto;
-    border: 1px solid rgb(229, 229, 68);
+    /* border: 1px solid rgb(229, 229, 68); */
 }
 div#aboutbox {
+    position: relative;
     padding-left: 16px;
-    font-size: 16px;
+    font-size: 12px;
 
 }
 div#about p {
-    font-size: 16px;    
+    /* font-size: 16px;     */
+  font-size: 2vw;
 
 }
-
 
 .obj {
     position: relative;
     background: #c6ccd4;
     height: 225px;
-    border: 1px solid rgb(150, 76, 7);
+    /* border: 1px solid rgb(150, 76, 7); */
 }
 
 .edu {
     position: relative;
     background: #c6ccd4;
     height: auto;
-    border: 1px solid rgb(150, 76, 7);
+    /* border: 1px solid rgb(150, 76, 7); */
 }
 
 .exp {
@@ -304,9 +324,48 @@ div#about p {
 }
 
 
+
+
+/* Styling for the tooltip container */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    /* Add some styles to make the tooltip visible on hover */
+    /* For example, you can use an underline and change the text color */
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  /* Tooltip message style */
+  .tooltip-container::after {
+    content: "This is the tooltip message!";
+    position: absolute;
+    bottom: 100%; /* Position it above the parent element */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.8); /* Background color of the tooltip */
+    color: white; /* Text color of the tooltip */
+    padding: 5px 10px; /* Add some padding for better appearance */
+    border-radius: 4px; /* Rounded corners for the tooltip */
+    font-size: 14px; /* Font size of the tooltip */
+    white-space: nowrap; /* Prevent line breaks within the tooltip */
+    visibility: hidden; /* Hide the tooltip by default */
+    opacity: 0; /* Make it completely transparent */
+    transition: opacity 0.3s, visibility 0s 0.3s; /* Add a transition effect */
+  }
+  
+  /* Show the tooltip on hover */
+  .tooltip-container:hover::after {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s; /* Remove the transition delay on hover */
+  }
+  
 /* - = = = - - = = = - - = = = - - = = = - */
 
-    /* margin: 0; */
+
+
+ /* margin: 0; */
         /* padding: 0; */
         /* max-width: 1024px; */
         /* min-width: 370px; */
