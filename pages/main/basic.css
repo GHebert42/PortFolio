@@ -2,33 +2,31 @@
 /* General Styles */
 
 /* Reset default margin and padding */
-    html, body {
-        margin: 0;
-        padding: 0;
-        float:none; 
-        margin: 0 auto;
-        width: 100%; 
-        min-height: 255px;
-        min-width: 378px;
-        max-width: 1024px;
-        /* overflow-x: hidden;
-        overflow-y: hidden; */
-        
-            /* max-height: 1024px; */
-            /* position: center; */
-            /* display: flex;  */
-    }
+html, body {
+    margin: 0;
+    padding: 0;
+    float:none; 
+    margin: 0 auto;
+    width: 100%; 
+    height: 100%;
+    /* overflow-x: hidden;
+    overflow-y: hidden; */
+    
+        /* max-height: 1024px; */
+        /* position: center; */
+        /* display: flex;  */
+}
 
 
-    body {
-        color: #001d3d;
-        font: 90% Roboto, Arial, sans-serif;
-        font-weight: 100;
-        /* min-height: 255px;
-        min-width: 378px;
-        max-width: 1024px; */
-        
-    }
+body {
+    color: #001d3d;
+    font: 90% Roboto, Arial, sans-serif;
+    font-weight: 100;
+    min-height: 255px;
+    min-width: 378px;
+    max-width: 1024px;
+    
+}
     /* ul {
         float: none;     
         margin: none;
@@ -44,6 +42,7 @@ div#side {
     background: #4d5d68;
     float: left;
     width: 34%;
+
     max-width: 344px;
     /* max-height: 1024px; */
     /* padding-left: 15px; */
@@ -53,9 +52,11 @@ div#side {
 div#main {
     position: relative;
     background: #c6ccd4;
-    
     width: 66%;
     float: right;
+
+    max-width: 768px;
+    /* max-height: 1024px; */
     /* max-height: 1024px; */
     /* border: 2px solid rgb(93, 214, 56); */
 }
@@ -103,12 +104,9 @@ div#pic {
     margin-right: auto;
     width: 60%; 
     max-width: 200px;
-
-        /* padding-left: 15%; */
-        /* object-fit: cover;
-        position: relative;
-        position: center; */
-        /* border: 2px solid rgb(120, 236, 157); */
+    
+    height:auto;
+    border: 2px solid rgb(120, 236, 157);
 }
     img {
         border-radius: 50%;
@@ -121,18 +119,19 @@ div#pic {
 div#contact {
     position: relative;
     background: #5c6b76;
-    height: 10%;
     padding-left: 1px;
     padding-top: 1px;
-    /* border: 2px solid rgb(229, 229, 68); */
-    /* position: absolute; */
-    /* display:inherit; */
+    
+    height: 15vb;
+    border: 2px solid rgb(229, 229, 68);
 }
+
 div#contact li {
     list-style: none;
-    font-size: 3vw;
+    font-size: 2.5vw;
     /* padding-left: -10px; */
 }
+
 div#contactbox {
     float: left;
     padding-left: 1%;
@@ -147,7 +146,7 @@ div#contactbox {
         white-space: nowrap;
     } 
     .comp {
-        position: relative;
+        /* position: relative; */
         float: left;
         font-size: 2vw;
         padding-bottom: 4px;
@@ -177,7 +176,8 @@ div#skill {
     position: relative;
     background: #5c6b76;
     height: 45%;
-    /* border: 3px solid rgb(62, 62, 183); */
+    /* height: 40vb; */
+    border: 3px solid rgb(62, 62, 183);
     padding-left: 1vw;
 }
 
@@ -197,8 +197,9 @@ div#skill p {
 
 /* container for slider bar */
 div#skillbox {
-    padding-left: -10px;
     /* position: relative; */
+
+    padding-left: -10px;
     padding-top: 1%;
     /* border: 3px solid rgb(213, 17, 17); */
 }
@@ -244,7 +245,7 @@ div#skillbox li {
     background: #5c6b76;
     height: 20%;
 
-    /* border: 1px solid rgb(150, 76, 7); */
+    border: 1px solid rgb(150, 76, 7);
 }
 div#intbox {
     padding-left: -10px;
