@@ -35,32 +35,7 @@
 
 
 /* - = = = - - = = = - - = = = - - = = = - */
-    /* margin: 0;
-    padding: 0;
-    max-width: 1024px;
-    min-width: 370px;
-    width: 100%; 
-    float:none; 
-    margin: 0 auto; */
-    /* padding: 0 10px;*/
-    /* line-height: 1.8;  */
-    /* padding: 25px; */
-    /* min-height: 110px; */
-    /* min-width: 200px; */
-    /* background: #001d3d; */
-    /* width: 190px;  */
-    /* height: 190px; */
-    /* float: left;*/
-    /* object-fit: cover;  */
-    /* right: 10px; */
-    /* margin-left: - 100%; */
-    /* margin: 0 auto; */
-    /* position: relative; */
-    /* width: 35%; */
-    /* float: left; */
-    /* height: 800px; */
-    /* min-height: 110px; */
-    /* padding-left: 200px; */
+
 
 /* - = = = - - = = = - - = = = - - = = = - */
 /*  Principal DIV */
@@ -110,7 +85,7 @@ div#mtag {
     color: #000;
     font-size: 12px;
     float: left;
-    /* padding-left: -18px; */
+    padding-left: 8px;
     
     /* position: absolute; */
     /* background: #eceff4; */
@@ -254,12 +229,12 @@ div#pic {
 
 /* - = = = - - = = = - - = = = - - = = = - */
     /* ---        INTERETS          ---  */
-    .int {
-        position: relative;
-        background: #5c6b76;
-        height: 150px;
-        /* border: 1px solid rgb(150, 76, 7); */
-    }
+.int {
+    position: relative;
+    background: #5c6b76;
+    height: auto;
+    border: 1px solid rgb(150, 76, 7);
+}
     
 /*          MAIN  DIVS           */
 /* - = = = - - = = = - - = = = - - = = = - - = = = - - = = = - - = = = - - = = = - */
@@ -294,7 +269,7 @@ div#about {
     margin-left: 8px; 
     font-size: 12px;
     height: auto;
-    /* border: 1px solid rgb(229, 229, 68); */
+    border: 1px solid rgb(229, 229, 68);
 }
 div#aboutbox {
     padding-left: 16px;
@@ -311,14 +286,14 @@ div#about p {
     position: relative;
     background: #c6ccd4;
     height: 225px;
-    /* border: 1px solid rgb(150, 76, 7); */
+    border: 1px solid rgb(150, 76, 7);
 }
 
 .edu {
     position: relative;
     background: #c6ccd4;
-    height: 150px;
-    /* border: 1px solid rgb(150, 76, 7); */
+    height: auto;
+    border: 1px solid rgb(150, 76, 7);
 }
 
 .exp {
@@ -329,12 +304,31 @@ div#about p {
 }
 
 
-
-
-
 /* - = = = - - = = = - - = = = - - = = = - */
 
-
-
-
-
+    /* margin: 0; */
+        /* padding: 0; */
+        /* max-width: 1024px; */
+        /* min-width: 370px; */
+        /* width: 100%;  */
+        /* float:none;  */
+        /* margin: 0 auto; */
+        /* padding: 0 10px;*/
+        /* line-height: 1.8;  */
+        /* padding: 25px; */
+        /* min-height: 110px; */
+        /* min-width: 200px; */
+        /* background: #001d3d; */
+        /* width: 190px;  */
+        /* height: 190px; */
+        /* float: left;*/
+        /* object-fit: cover;  */
+        /* right: 10px; */
+        /* margin-left: - 100%; */
+        /* margin: 0 auto; */
+        /* position: relative; */
+        /* width: 35%; */
+        /* float: left; */
+        /* height: 800px; */
+        /* min-height: 110px; */
+    /* padding-left: 200px; */
