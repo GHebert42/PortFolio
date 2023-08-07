@@ -1,8 +1,6 @@
 
 /* General Styles */
 
-
-
 /* Reset default margin and padding */
 html, body {
     margin: 0;
@@ -14,31 +12,30 @@ html, body {
     font: 90% Roboto, Arial, sans-serif;
     font-weight: 100;
     max-height: 100vh;
-    
-    /* min-width: 378px;
-    max-width: 1024px; */
-    
-    /* height: 100%; */
-    /* overflow-x: hidden;
-    overflow-y: hidden; */
-        
-    /* min-height: 255px; */
-        /* position: center; */
-        /* display: flex;  */
-}
 
+        /* min-width: 378px;
+        max-width: 1024px; */
+        
+        /* height: 100%; */
+        /* overflow-x: hidden;
+        overflow-y: hidden; */
+            
+        /* min-height: 255px; */
+            /* position: center; */
+            /* display: flex;  */
+}
 
 body {
     color: #001d3d;
     font: 90% Roboto, Arial, sans-serif;
-    /* font-weight: 100; */
     min-height: 255px;
     min-width: 378px;
-    /* max-width: 100vw; */
     width: 100%; 
     width: 100vh; 
-
     
+    /* font-weight: 100; */
+    /* max-width: 100vw; */
+
 }
   
 .container {
@@ -56,6 +53,7 @@ div#side {
 
     max-width: 40vw;
     height: 100%;
+
     /* border: 2px solid rgb(32, 54, 200); */
 }
 
@@ -65,12 +63,10 @@ div#main {
     width: 66%;
     float: right;
     min-height: 100%;
-    /* max-height: 100vh; */
-
+    /* max-width: 768px; */
     overflow-y: auto;
-    
-    max-width: 768px;
     /* border: 2px solid rgb(93, 214, 56); */
+    /* max-height: 100vh; */
 }
 
 /* - = = = - - = = = - - = = = - - = = = - */
@@ -133,7 +129,8 @@ div#pic {
 div#contact {
     position: relative;
     background: #5c6b76;
-    height: 150px;
+    height: 20vh;
+    /* color: #001d3d; */
     /* border: 2px solid rgb(229, 229, 68); */
 }
 
@@ -145,15 +142,21 @@ div#contact li {
 
 div#contactbox {
     float: left;
-    /* padding-left: 1%; */
     padding-left: 1vw;
     padding-top: 2vh;
     
+    /* padding-left: 1%; */
     /* height: 15vw; */
     /* border: 2px solid rgb(229, 170, 68); */
-    
 
 }
+div#contactbox a  {
+    text-decoration: none; /* Supprime le soulignement */
+    color: inherit;     /* Utilise la couleur héritée du parent */
+    /* color: #001d3d; */
+  }
+  
+
     .no-wrap-text {
         /* Appliquer l'attribut white-space avec la valeur nowrap */
         white-space: nowrap;
@@ -165,13 +168,44 @@ div#contactbox {
         
         margin-left: auto;
         margin-right: auto;
+        color: #001d3d;
+        }
+
+    .comp  i  {
+        text-decoration: none; 
+        padding-left: 1.5vw;
+        padding-top: .5vh;
     }
+
+    .comp_sup {
+        /* position: relative; */
+        float: left;
+        /* padding-bottom: 4px; */
+        
+        /* margin-left: auto;
+        margin-right: auto; */
+        color: #001d3d;
+        }
+
+    .comp_sup  a  {
+        text-decoration: none; 
+        font: 90% Roboto, Arial, sans-serif;
+        padding-left: 1.5vw;
+        padding-top: 1.5vh;
+    }
+    .comp_sup  p  {
+        text-decoration: none; 
+        padding-left: 1.5vw;
+        padding-top: 1.5vh;
+    }
+
+
 
     /* - =          HOVER            = - */
     .element:hover {
         /** Change la couleur de fond et la couleur du texte lors du survol */
-        background-color: #333a3f;
-        color: #9e8888;
+        background-color: #b02c46;
+        color: #bc5151;
         transition: 0.3s;
     }    
     .element {
@@ -318,7 +352,7 @@ div#about {
     background: #c6ccd4;
     margin-left: 2vw; 
     font-size: 1.8vw;
-    height: auto;
+    /* height: auto; */
     /* border: 1px solid rgb(229, 229, 68); */
 }
 div#aboutbox {
@@ -326,6 +360,7 @@ div#aboutbox {
     padding-left: 1.6vw;
     font-size: 1.6vw;
     padding-top: 1%;
+    width:inherit;
 }
 div#aboutbox p {
     /* font-size: 16px;     */
