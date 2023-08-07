@@ -14,19 +14,25 @@ html, body {
     /* overflow-x: hidden;
     overflow-y: hidden; */
     
-        /* max-height: 1024px; */
+        max-height: 100vh;
+        color: #001d3d;
+    font: 90% Roboto, Arial, sans-serif;
+    font-weight: 100;
+    min-height: 255px;
+    min-width: 378px;
+    max-width: 1024px;
         /* position: center; */
         /* display: flex;  */
 }
 
 
 body {
-    color: #001d3d;
+    /* color: #001d3d;
     font: 90% Roboto, Arial, sans-serif;
     font-weight: 100;
     min-height: 255px;
     min-width: 378px;
-    max-width: 1024px;
+    max-width: 1024px; */
 
     
 }
@@ -334,7 +340,7 @@ div#aboutbox p {
     position: relative;
     background: #c6ccd4;
     padding-left: 16px;
-    height: 10vb;
+    height: auto;
     /* border: 1px solid rgb(150, 76, 7); */
 }
 
