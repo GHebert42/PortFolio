@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     
         // Récupérer la boîte de gauche par son ID
-        const leftBox = document.getElementById('left-box');
+        const leftBox = document.getElementById('side');
     
         // Récupérer la hauteur de la boîte de gauche
         const leftBoxHeight = leftBox.offsetHeight;
