@@ -158,17 +158,18 @@ div#contactbox a  {
   
 
     .no-wrap-text {
-        /* Appliquer l'attribut white-space avec la valeur nowrap */
-        white-space: nowrap;
+    
+        white-space: nowrap;        /* Appliquer l'attribut white-space avec la valeur nowrap */
     } 
+
     .comp {
-        /* position: relative; */
         float: left;
-        padding-bottom: 4px;
-        
         margin-left: auto;
         margin-right: auto;
         color: #001d3d;
+
+        /* position: relative; */
+        /* padding-bottom: 4px; */
         }
 
     .comp  i  {
@@ -177,28 +178,44 @@ div#contactbox a  {
         padding-top: .5vh;
     }
 
+
     .comp_sup {
-        /* position: relative; */
         float: left;
-        /* padding-bottom: 4px; */
-        
         /* margin-left: auto;
         margin-right: auto; */
         color: #001d3d;
+        /* font-size: 1.5vw; */
+            /* padding-top: 4vh; */
+            /* position: relative; */
+            /* margin-left: auto;
+            margin-right: auto; */
         }
 
-    .comp_sup  a  {
+    .comp_sup  ul   {
         text-decoration: none; 
+        list-style: none;
+        margin: unset;
         font: 90% Roboto, Arial, sans-serif;
-        padding-left: 1.5vw;
-        padding-top: 1.5vh;
-    }
-    .comp_sup  p  {
-        text-decoration: none; 
-        padding-left: 1.5vw;
-        padding-top: 1.5vh;
+        padding-inline-start: 0%;
+        /* padding-left: 1.5vw; */
+        /* padding-top: 1vh; */
+        
     }
 
+    .comp_sup  li  {
+
+        /* font: 90% Roboto, Arial, sans-serif; */
+        /* font-size: 1.5vw; */
+        padding-left: 1.8vw;
+        padding-top: 1vh;
+        
+    }
+
+    .comp_sup  i  {
+        text-decoration: none; 
+        /* padding-left: 1.5vw; */
+        /* padding-top: .5vh; */
+    }
 
 
     /* - =          HOVER            = - */
