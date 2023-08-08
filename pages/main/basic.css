@@ -1,5 +1,45 @@
 
 /* General Styles */
+/* Plan de CSS */
+/* 
+HTML    : Full window
+Body    : Full page
+
+    stag // mtag    : sub-div part name
+        
+Container : flex // js
+
+    Side    : [33%] 
+
+        Pic     : foto 
+        Contact : link
+            contactbox ...
+            no-wrap : comp entier 
+            comp    : match ico /  link-name
+            element : hover:: tool-tip
+        
+        Skill   : slide
+            skillbox ...
+            slider : gradateur
+            skills : referant
+
+        Interet : ...
+            intbox : set loisir and fav_ico
+
+    Main    : [66%]
+
+        Name    : ... MyName
+        Job     : title-job
+
+        About   : desc.
+            aboutbox: 
+        Edu     : School
+        Exp     : experiences
+
+    Utils   : 
+        tooltip // container ...
+
+ */
 
 /* Reset default margin and padding */
 html, body {
