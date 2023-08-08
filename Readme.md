@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio </home/germain/Documents/Git/PortFolio/docs/index.html>
 
 Making my own website with HTML, CSS, JavaScript.
 ... Without template, or WebKit.
