@@ -9,6 +9,26 @@ document.addEventListener('DOMContentLoaded', function () {
         alert('Email copied to clipboard: ' + email);
     });
 
+    // Écouteurs d'événements pour les boutons de langue
+    document.getElementById("btn-fr").addEventListener("click", function() {
+        showContent("fr");
+    });
+
+document.getElementById("btn-en").addEventListener("click", function() {
+    showContent("en");
+});
+
+document.getElementById("btn-sp").addEventListener("click", function() {
+    showContent("sp");
+});
+
+// Fonction pour afficher le contenu correspondant à la langue sélectionnée
+function showContent(lang) {
+    document.getElementById("content-fr").style.display = lang === "fr" ? "block" : "none";
+    document.getElementById("content-en").style.display = lang === "en" ? "block" : "none";
+    document.getElementById("content-sp").style.display = lang === "sp" ? "block" : "none";
+}
+
     function copyToClipboard(text) {
         const tempInput = document.createElement('input');
         tempInput.style.position = 'absolute';
