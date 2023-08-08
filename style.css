@@ -251,17 +251,17 @@ div#skillbox p {
       text-align: right;
       padding-top: 1px;
       padding-bottom: 1px;
-      color: #c6ccd4;
+      color: gray;
       font-size: .8vw;
     }
 
     /*     slider bar ref. name %%%  */
-    .full {width: 95%; background-color: #c6ccd4;}
-    .solid {width: 85%; background-color: #c6ccd4;}
-    .good {width: 70%; background-color: #c6ccd4;}
-    .fine {width: 60%; background-color: #c6ccd4;}
-    .wip {width: 45%; background-color: #c6ccd4;}
-    .init {width: 35%; background-color: #c6ccd4;}
+    .full {width: 95%; background-color: gray;}
+    .solid {width: 85%; background-color: gray;}
+    .good {width: 70%; background-color: gray;}
+    .fine {width: 60%; background-color: gray;}
+    .wip {width: 45%; background-color: gray;}
+    .init {width: 35%; background-color: gray;}
 
 /* - = = = - - = = = - - = = = - - = = = - */
     /* ---        INTERETS          ---  */
