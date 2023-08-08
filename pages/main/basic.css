@@ -1,45 +1,6 @@
 
 /* General Styles */
-/* Plan de CSS */
-/* 
-HTML    : Full window
-Body    : Full page
 
-    stag // mtag    : sub-div part name
-        
-Container : flex // js
-
-    Side    : [33%] 
-
-        Pic     : foto 
-        Contact : link
-            contactbox ...
-            no-wrap : comp entier 
-            comp    : match ico /  link-name
-            element : hover:: tool-tip
-        
-        Skill   : slide
-            skillbox ...
-            slider : gradateur
-            skills : referant
-
-        Interet : ...
-            intbox : set loisir and fav_ico
-
-    Main    : [66%]
-
-        Name    : ... MyName
-        Job     : title-job
-
-        About   : desc.
-            aboutbox: 
-        Edu     : School
-        Exp     : experiences
-
-    Utils   : 
-        tooltip // container ...
-
- */
 
 /* Reset default margin and padding */
 html, body {
@@ -47,7 +8,8 @@ html, body {
     padding: 0;
     float:none; 
     margin: 0 auto;
-    width: 100%; 
+    max-width: 1024px;
+    /* width: 100%;  */
     /* height: 100%; */
     /* overflow-x: hidden;
     overflow-y: hidden; */
@@ -64,7 +26,8 @@ body {
     font-weight: 100;
     min-height: 255px;
     min-width: 378px;
-    max-width: 1024px;
+    /* max-width: 1024px; */
+    width: 100%; 
     
 }
 
@@ -77,6 +40,7 @@ div#side {
     background: #4d5d68;
     float: left;
     width: 34%;
+    height: 100%;
 
     max-width: 344px;
     /* border: 2px solid rgb(32, 54, 200); */
@@ -152,7 +116,7 @@ div#pic {
 div#contact {
     position: relative;
     background: #5c6b76;
-    height: 150px;
+    height: 15vh;
     /* border: 2px solid rgb(229, 229, 68); */
 }
 
@@ -166,7 +130,7 @@ div#contactbox {
     float: left;
     /* padding-left: 1%; */
     padding-left: 1vw;
-    padding-top: 2%;
+    padding-top: 1vh;
     
     /* height: 15vw; */
     /* border: 2px solid rgb(229, 170, 68); */
@@ -427,31 +391,43 @@ div#exp li{
   
 /* - = = = - - = = = - - = = = - - = = = - */
 
+/* Plan de CSS */
+/* 
+HTML    : Full window
+Body    : Full page
 
+    stag // mtag    : sub-div part name
+        
+Container : flex // js
 
- /* margin: 0; */
-        /* padding: 0; */
-        /* max-width: 1024px; */
-        /* min-width: 370px; */
-        /* width: 100%;  */
-        /* float:none;  */
-        /* margin: 0 auto; */
-        /* padding: 0 10px;*/
-        /* line-height: 1.8;  */
-        /* padding: 25px; */
-        /* min-height: 110px; */
-        /* min-width: 200px; */
-        /* background: #001d3d; */
-        /* width: 190px;  */
-        /* height: 190px; */
-        /* float: left;*/
-        /* object-fit: cover;  */
-        /* right: 10px; */
-        /* margin-left: - 100%; */
-        /* margin: 0 auto; */
-        /* position: relative; */
-        /* width: 35%; */
-        /* float: left; */
-        /* height: 800px; */
-        /* min-height: 110px; */
-    /* padding-left: 200px; */
+    Side    : [33%] 
+
+        Pic     : foto 
+        Contact : link
+            contactbox ...
+            no-wrap : comp entier 
+            comp    : match ico /  link-name
+            element : hover:: tool-tip
+        
+        Skill   : slide
+            skillbox ...
+            slider : gradateur
+            skills : referant
+
+        Interet : ...
+            intbox : set loisir and fav_ico
+
+    Main    : [66%]
+
+        Name    : ... MyName
+        Job     : title-job
+
+        About   : desc.
+            aboutbox: 
+        Edu     : School
+        Exp     : experiences
+
+    Utils   : 
+        tooltip // container ...
+
+ */

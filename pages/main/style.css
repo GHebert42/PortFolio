@@ -129,7 +129,7 @@ div#pic {
 div#contact {
     position: relative;
     background: #5c6b76;
-    height: 20vh;
+    height: 25vh;
     /* color: #001d3d; */
     /* border: 2px solid rgb(229, 229, 68); */
 }
@@ -181,8 +181,8 @@ div#contactbox a  {
 
     .comp_sup {
         float: left;
-        /* margin-left: auto;
-        margin-right: auto; */
+        margin-left: auto;
+        margin-right: auto;
         color: #001d3d;
         /* font-size: 1.5vw; */
             /* padding-top: 4vh; */
