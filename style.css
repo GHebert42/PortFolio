@@ -256,8 +256,8 @@ div#skillbox p {
     }
 
     /*     slider bar ref. name %%%  */
-    .full {width: 95%; background-color: gray;}
-    .solid {width: 85%; background-color: gray;}
+    .full {width: 90%; background-color: gray;}
+    .solid {width: 82%; background-color: gray;}
     .good {width: 70%; background-color: gray;}
     .fine {width: 60%; background-color: gray;}
     .wip {width: 45%; background-color: gray;}
